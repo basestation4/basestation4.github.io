@@ -1,0 +1,2115 @@
+<html
+	data-wf-domain="www.basestation4.xyz"
+	data-wf-page="65e9d686dfebbc06d44614f5"
+	data-wf-site="65e9d686dfebbc06d44614f8"
+	class="w-mod-js wf-opensans-n3-active wf-opensans-n7-active wf-opensans-n6-active wf-opensans-n8-active wf-opensans-n4-active wf-lato-n4-active wf-montserrat-n6-active wf-montserrat-n9-active wf-montserrat-n3-active wf-montserrat-n7-active wf-montserrat-n4-active wf-montserrat-n5-active wf-montserrat-n1-active wf-montserrat-n2-active wf-montserrat-n8-active wf-lato-n7-active wf-lato-n9-active wf-lato-n1-active wf-montserrat-i5-active wf-montserrat-i9-active wf-montserrat-i6-active wf-montserrat-i2-active wf-montserrat-i4-active wf-montserrat-i3-active wf-montserrat-i8-active wf-montserrat-i1-active wf-montserrat-i7-active wf-opensans-i3-active wf-opensans-i8-active wf-opensans-i7-active wf-opensans-i6-active wf-opensans-i4-active wf-lato-i3-active wf-lato-i1-active wf-lato-i9-active wf-lato-i7-active wf-lato-i4-active wf-lato-n3-active wf-active w-mod-ix"
+>
+	<head>
+		<style>
+			.wf-force-outline-none[tabindex='-1']:focus {
+				outline: none;
+			}
+		</style>
+		<meta charset="utf-8" />
+		<title>$BS4</title>
+		<meta content="BaseStation 4. Base has no limits." name="description" />
+		<meta content="$BS4" property="og:title" />
+		<meta content="BaseStation 4. Base has no limits." property="og:description" />
+		<meta content="/assets/6600859d97fdea31bc8b626c_IMG_2900.png" property="og:image" />
+		<meta content="$BS4" property="twitter:title" />
+		<meta content="BaseStation 4. Base has no limits." property="twitter:description" />
+		<meta content="/assets/6600859d97fdea31bc8b626c_IMG_2900.png" property="twitter:image" />
+		<meta property="og:type" content="website" />
+		<meta content="summary_large_image" name="twitter:card" />
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<link href="/assets/css/basestation4.20907107d.min.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com" rel="preconnect" />
+		<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic%7COpen+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic%7CMontserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+			media="all"
+		/>
+		<script type="text/javascript">
+			WebFont.load({
+				google: {
+					families: [
+						'Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic',
+						'Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic',
+						'Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic',
+					],
+				},
+			})
+		</script>
+		<script type="text/javascript">
+			!(function (o, c) {
+				var n = c.documentElement,
+					t = ' w-mod-'
+				;(n.className += t + 'js'), ('ontouchstart' in o || (o.DocumentTouch && c instanceof DocumentTouch)) && (n.className += t + 'touch')
+			})(window, document)
+		</script>
+		<link href="/assets/660082232bf4dc1466626302_BS420Favicon.png" rel="shortcut icon" type="image/x-icon" />
+		<link href="/assets/66008265c553278771ae339b_BS420Webclip.png" rel="apple-touch-icon" />
+	</head>
+
+	<body class="body">
+		<audio preload="auto" src="https://dl.dropboxusercontent.com/scl/fi/6svj817uxl0qjsd9njlbn/PLAYSTATION-4-STARTUP-REMIX-_-Chill-Type-Beat-tykillaondabeat_.mp3?rlkey=vi0vwv9t2wlt351kviak08ayf&amp;dl=0" loop="true" autobuffer="" muted="muted" id="audioPlayer"></audio>
+
+		<script>
+			// Set and get cookies functions
+			function setCookie(c_name, value, exdays) {
+				var exdate = new Date()
+				exdate.setDate(exdate.getDate() + exdays)
+				var c_value = escape(value) + (exdays == null ? '' : '; expires=' + exdate.toUTCString())
+				document.cookie = c_name + '=' + c_value
+			}
+
+			function getCookie(c_name) {
+				var i,
+					x,
+					y,
+					ARRcookies = document.cookie.split(';')
+				for (i = 0; i < ARRcookies.length; i++) {
+					x = ARRcookies[i].substr(0, ARRcookies[i].indexOf('='))
+					y = ARRcookies[i].substr(ARRcookies[i].indexOf('=') + 1)
+					x = x.replace(/^\s+|\s+$/g, '')
+					if (x == c_name) {
+						return unescape(y)
+					}
+				}
+			}
+
+			document.addEventListener('DOMContentLoaded', function () {
+				var song = document.getElementById('audioPlayer')
+				var preloadDiv = document.getElementById('preload')
+
+				preloadDiv.addEventListener('click', function () {
+					// Add the fade-out class to trigger the animation
+					preloadDiv.classList.add('fade-out')
+
+					song.muted = false
+					var playPromise = song.play()
+
+					if (playPromise !== undefined) {
+						playPromise
+							.then((_) => {
+								// Action after play
+							})
+							.catch((error) => {
+								// Action on play error
+							})
+					}
+				})
+
+				// Periodically save the position if not muted
+				setInterval(function () {
+					if (!song.muted && !song.paused) {
+						setCookie('timePlayed', song.currentTime, 365)
+					}
+				}, 1000)
+			})
+		</script>
+
+		<style>
+			.cursor {
+				pointer-events: none;
+			}
+
+			body {
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+			#selector {
+				cursor: none;
+			}
+
+			img {
+				-webkit-user-drag: none;
+				-khtml-user-drag: none;
+				-moz-user-drag: none;
+				-o-user-drag: none;
+				user-drag: none;
+			}
+		</style>
+
+		<!-- <input onclick="change()" type="button" value="Open Curtain" id="t" /> -->
+
+		<div class="cursor">
+			<img
+				src="/assets/65e9d686dfebbc06d446155c_Cursor.svg"
+				data-w-id="b1dc2b24-a6b8-4292-fe38-843f4bde0078"
+				alt=""
+				class="icon"
+				style="will-change: transform; transform: translate3d(2.686vw, 49.993vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d"
+			/>
+		</div>
+		<div data-w-id="b8f6b5aa-7610-7cda-674f-9a323ea11a1e" class="power-on">
+			<div class="reload-page w-embed">
+				<a href="https://playstation.webflow.io">
+					<div style="width: 100vw; height: 100vh"></div>
+				</a>
+			</div>
+		</div>
+		<div id="preload" data-w-id="7a078cc6-e50d-e265-37e3-19fea8f12506" style="display: none; opacity: 1" class="preloader fade-out">
+			<div class="black">
+				<div class="start">
+					<img
+						src="/assets/6600829a5fa4e4dec9eeedfa_logo.png"
+						data-w-id="31a83257-b925-af4d-0e7d-700e62c9cecb"
+						sizes="(max-width: 479px) 100vw, 154.21875px"
+						srcset="/assets/6600829a5fa4e4dec9eeedfa_logo-p-500.png 500w, /assets/6600829a5fa4e4dec9eeedfa_logo-p-800.png 800w, /assets/6600829a5fa4e4dec9eeedfa_logo-p-1080.png 1080w, /assets/6600829a5fa4e4dec9eeedfa_logo.png 1479w"
+						alt=""
+						class="logo"
+					/>
+					<p class="disclaimer">
+						<span class="text-span-3">
+							<strong>
+								<em>$BS4</em>
+							</strong>
+						</span>
+						<em> <br />GAS FEES SAVED - COINS MADE - TAP TO ENJOY<br /></em>
+						<span class="text-span-4">
+							<em>*use on desktop for a better $BS4 experience*</em>
+						</span>
+					</p>
+					<div data-w-id="0c5fb677-991b-f93b-4068-edd949f9bbc4" class="intro-wrapper"></div>
+				</div>
+				<div data-w-id="d2d03a2e-8dcc-fd65-8ba6-fd19cd7f9843" class="trigger"></div>
+			</div>
+		</div>
+		<div class="share-menu">
+			<div class="share-wrapper">
+				<div class="tab">
+					<img src="/assets/65e9d686dfebbc06d4461570_Video20Clip.png" alt="" class="share-icon" />
+					<h1 class="name">Video&nbsp;Clip</h1>
+					<div class="thumbnail"></div>
+				</div>
+				<div class="tab">
+					<img src="/assets/65e9d686dfebbc06d44615a0_Screenshot.png" alt="" class="share-icon s" />
+					<h1 class="name">Screenshot</h1>
+					<div class="thumbnail"></div>
+				</div>
+				<div class="tab">
+					<img src="/assets/65e9d686dfebbc06d4461575_Broadcast.png" alt="" class="share-icon s" />
+					<h1 class="name">Broadcast Gameplay</h1>
+				</div>
+				<div class="tab">
+					<img src="/assets/65e9d686dfebbc06d4461568_Share20Play.png" alt="" class="share-icon p" />
+					<h1 class="name">Start Share Play</h1>
+				</div>
+				<div class="divider"></div>
+				<div class="share-header">
+					<p class="heading-title pad">Share</p>
+				</div>
+				<div class="share-footer">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">TechVizir</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps pad" />
+					<img src="/assets/65e9d686dfebbc06d44615ad_Dark20Controller.png" alt="" class="controller white" />
+					<img src="/assets/65e9d686dfebbc06d4461511_Battery.png" alt="" class="battery white" />
+				</div>
+				<div class="tab">
+					<img src="/assets/65e9d686dfebbc06d4461578_Share20Video.png" alt="" class="share-icon p" />
+					<h1 class="name">Save Video Clip</h1>
+				</div>
+				<div class="tab">
+					<img src="/assets/65e9d686dfebbc06d446153c_Save20Screenshot.png" alt="" class="share-icon ss" />
+					<h1 class="name">Save Screenshott</h1>
+				</div>
+				<div class="tab">
+					<img src="/assets/65e9d686dfebbc06d4461528_Settings.png" alt="" class="share-icon p" />
+					<h1 class="name">Broadcast Settings</h1>
+				</div>
+				<div class="tab">
+					<img src="/assets/65e9d686dfebbc06d44615a6_Lightbulb.png" alt="" class="share-icon p" />
+					<h1 class="name">View Guide</h1>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="cce546f9-5940-969b-54bf-ca6de0b59bb9" style="opacity: 1; display: flex" class="login">
+			<img
+				src="/assets/660082bf5606666d305734fb_455e622efdc4f181.png"
+				data-w-id="f1ec6127-7c0a-7313-1428-4003afdea6ca"
+				sizes="100vw"
+				srcset="/assets/660082bf5606666d305734fb_455e622efdc4f181-p-500.png 500w, /assets/660082bf5606666d305734fb_455e622efdc4f181-p-800.png 800w, /assets/660082bf5606666d305734fb_455e622efdc4f181.png 888w"
+				alt=""
+				class="ps4"
+			/>
+			<div data-w-id="1b4a70ce-0fc2-b08d-cfa5-0a7c57a01c6e" class="options-menu">
+				<a href="#" class="button-3 w-button">Log&nbsp;In and&nbsp;Appear <strong class="bold-text">Online</strong></a
+				><a href="#" class="button-3 w-button">Log&nbsp;In and&nbsp;Appear <strong class="bold-text">Offline</strong></a>
+			</div>
+			<div data-w-id="6dfbc763-cd93-aa66-4f99-73da03dbc5b7" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d" class="intro">
+				<h1 class="intro-title">Press the BS button to become based.</h1>
+				<img
+					src="/assets/66008145112ed73f25ed24d4_927ed8ed4369e7df.png"
+					data-w-id="90853238-4b96-cd02-594a-470081eb0c22"
+					sizes="100vw"
+					srcset="/assets/66008145112ed73f25ed24d4_927ed8ed4369e7df-p-500.png 500w, /assets/66008145112ed73f25ed24d4_927ed8ed4369e7df-p-800.png 800w, /assets/66008145112ed73f25ed24d4_927ed8ed4369e7df.png 855w"
+					alt=""
+					class="ps-button"
+					style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform"
+				/>
+			</div>
+			<div data-w-id="b1f66f9c-06ae-a9c5-048b-4905faf2d744" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="profiles">
+				<div class="select-user">
+					<div class="div-block-3 w-clearfix">
+						<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="image-2" />
+						<h1 class="title-copy">BASESHOCK 4 wireless controller connected.<br />You are the normie. Click around and have fun.</h1>
+					</div>
+					<div data-w-id="5b4f9a0b-f859-728c-6695-8a151f720fb3" class="wrapper">
+						<div data-w-id="ef0c63ca-e02a-7412-d0d0-1ced7af36857" class="profile-card">
+							<div class="add-wrapper">
+								<img src="/assets/65e9d686dfebbc06d446150d_Add.svg" alt="" class="add" />
+								<h1 class="title">New User</h1>
+							</div>
+						</div>
+						<div data-w-id="e8be44bb-a0a0-c3a0-b29e-64b6e5d2dffb" class="profile-card">
+							<div class="techvizir"></div>
+							<div class="user-wrapper">
+								<h1 class="vav">$BS4 NORMIE</h1>
+								<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="ps-plus" />
+							</div>
+						</div>
+						<div data-w-id="c54283bd-a27d-5f85-4f0f-dbf2cdaf3a5a" class="profile-card pad">
+							<div class="pandamonium"></div>
+							<div class="user-wrapper"><h1 class="title pad">Panda</h1></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-w-id="dbe91d77-7bbc-ed1b-c638-23d094261d6a" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="add-user">
+				<div data-w-id="4ebc469a-6490-4710-f2e9-202f0660dd31" class="signin-wrapper">
+					<div class="frame">
+						<img src="/assets/65e9d686dfebbc06d44615e5_Create20User.png" sizes="100vw" srcset="/assets/65e9d686dfebbc06d44615e5_Create%2520User-p-500.png 500w, /assets/65e9d686dfebbc06d44615e5_Create20User.png 729w" alt="" class="image-3" />
+					</div>
+					<div>
+						<h1 class="heading-2">Create a&nbsp;User</h1>
+						<p class="paragraph">A user will be created on this PS4 and you will be logged in. Saved data, screenshots, and other information will be saved even after you log out of the system.</p>
+					</div>
+				</div>
+				<div data-w-id="a1017d96-e688-f220-65fb-ebf052b57cad" class="signin-wrapper pad">
+					<div class="frame"><img src="/assets/65e9d686dfebbc06d446159b_Profile.png" alt="" class="image-3" /></div>
+					<div>
+						<h1 class="heading-2">Play as a Guest</h1>
+						<p class="paragraph">Temporarily log in to this PS4 as a guest without creating a user. After you log out, data you created will be deleted.</p>
+					</div>
+				</div>
+				<p class="explanation-wide">Whichever option you choose, you can use PlayStation Network features with your Sony Entertainment Network account.</p>
+			</div>
+			<div data-w-id="c1e99ec0-6539-5339-e370-2233632ebfe1" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="forgot-password">
+				<div class="w-form">
+					<form id="email-form" name="email-form" data-name="Email Form" method="get" class="form" data-wf-page-id="65e9d686dfebbc06d44614f5" data-wf-element-id="c1e99ec0-6539-5339-e370-2233632ebfe9" aria-label="Email Form">
+						<p class="description">An email will be sent to the address below with a secure link.<br />Use it to change your password using your desktop or mobile device.</p>
+						<input class="text-field w-input" maxlength="256" name="Sign-In-ID" data-name="Sign-In ID" placeholder="your@email.com" type="text" id="Sign-In-ID" /><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Next" />
+					</form>
+					<div class="success-message w-form-done" tabindex="-1" role="region" aria-label="Email Form success">
+						<p class="sent">
+							The email has been sent.<br /><br />If you haven't received the email, confirm the following:<br /><br />• Enter the email address you use as your sign-in ID.<br /><br />• If you have sent multiple requests, wait a while, and then try again.<br /><br />• If you are a
+							child family member, the email may not have been sent. &nbsp;&nbsp;&nbsp;Ask the family manager to reset the password.
+						</p>
+						<a data-w-id="e603ecce-bd34-fcb9-344f-502aa0c81d90" href="#" class="form-button w-button">OK</a>
+					</div>
+					<div class="error-message w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure"><div>Oops! Something went wrong while submitting the form.</div></div>
+				</div>
+			</div>
+			<div data-w-id="ec9c2d00-427c-75ce-c411-40ab6ab906e7" style="opacity: 0; transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d" class="accept-terms">
+				<div class="header"><p class="heading-title">User Agreement</p></div>
+				<div class="terms-wrapper">
+					<p class="terms-of-service">
+						PLAYSTATION®4 SYSTEM SOFTWARE LICENSE AGREEMENT (Version 2.1)<br /><br />PLEASE READ THIS PLAYSTATION®4 SYSTEM SOFTWARE LICENSE AGREEMENT ("AGREEMENT") CAREFULLY TO UNDERSTAND YOUR RIGHTS AND OBLIGATIONS.<br /><br />THIS AGREEMENT IS BETWEEN YOU AND SONY INTERACTIVE
+						ENTERTAINMENT INC. ("SIE Inc"). ACCESS TO OR USE OF THE SYSTEM SOFTWARE IN SIE Inc's PlayStation®4 COMPUTER ENTERTAINMENT SYSTEM ("PS4™ SYSTEM") IS EXPRESSLY CONDITIONED UPON YOUR ACCEPTANCE OF THIS AGREEMENT'S TERMS. BY USING YOUR PS4 SYSTEM, YOU REPRESENT THAT YOU ARE
+						CAPABLE OF ENTERING INTO A CONTRACT UNDER THE LAWS OF YOUR JURISDICTION AND AGREE TO BE BOUND BY THIS AGREEMENT'S TERMS.<br /><br />You are accepting this Agreement on your behalf and on behalf of other people who access or use: (i) your PS4 system; or (ii) your PS4 system
+						account or your account on PlayStation™ Network ("Account") &nbsp;associated with this PS4 system. You are responsible for other people's use of your PS4 system and for their compliance with this Agreement's terms.<br /><br />SIE Inc reserves the right, from time to time,
+						with or without notice to you, to change the terms of this Agreement. The most current version of this Agreement will supersede all previous versions.<br /><br />This Agreement applies to any system software, firmware and Internet browser software and other application
+						software included in your PS4 system and any patches, updates, upgrades or new versions of that system software, firmware and Internet browser software and other application software provided to or made available for your PS4 system through any SIE Inc or Sony service or
+						online network, PlayStation™Network, SIE Inc website or PS4 game media. All software and firmware described in this paragraph is referred to collectively as "System Software" throughout this Agreement.<br /><br />If you are in the North America, South America or Central
+						America, all games and other software made available for use with your PS4 system are licensed to you, not sold, pursuant to the Software Product License Agreement which can be found at
+						<a href="http://us.playstation.com/softwarelicense" target="_parent">http://us.playstation.com/softwarelicense</a>.<br /><br />NOTE: IF YOU ARE A UNITED STATES RESIDENT OR A RESIDENT OF A COUNTRY IN NORTH, CENTRAL OR SOUTH AMERICA, TO THE FULLEST EXTENT PERMITTED BY LAW, THIS
+						AGREEMENT CONTAINS A BINDING INDIVIDUAL ARBITRATION AND CLASS ACTION WAIVER PROVISION IN SECTION 9 THAT AFFECTS YOUR RIGHTS UNDER THIS AGREEMENT AND WITH RESPECT TO ANY "DISPUTE" (AS DEFINED IN SECTION 9) BETWEEN YOU AND A "SONY ENTITY" (AS DEFINED IN SECTION 9). YOU HAVE A
+						RIGHT TO OPT OUT OF THE BINDING ARBITRATION AND CLASS ACTION WAIVER PROVISIONS AS DESCRIBED IN SECTION 9.<br /><br />&zwj;<strong>1. LICENSE GRANT<br /><br />&zwj;</strong>Subject to this Agreement's terms, SIE Inc grants you a non-exclusive, non-commercial right to use
+						System Software solely on your PS4 system. Your rights to use previous versions of System Software other than the current version of System Software terminates as soon as you can receive or have the most current version of System Software installed on your PS4 system.<br /><br />Certain
+						license terms for SIE Inc-licensed, third-party software or service may require that SIE Inc provide you with notices and license terms for that third-party software or service. These notices and license terms are available to you at
+						<a href="https://doc.dl.playstation.net/doc/ps4-oss/" target="_parent">https://doc.dl.playstation.net/doc/ps4-oss</a> or any other place which SIE Inc thinks appropriate.<br /><br />All rights to use System Software are granted by license only, and you are not granted any
+						ownership rights or interests in System Software. SIE Inc and its licensors retain all intellectual property rights in System Software. All use of or access to System Software is subject to this Agreement's terms and applicable intellectual property laws. Except as this
+						Agreement expressly grants, SIE Inc and its licensors reserve all rights in System Software.<br /><br />&zwj;<strong>2. RESTRICTIONS<br /><br />&zwj;</strong>You may not lease, rent, sublicense, publish, modify, patch, adapt or translate System Software. You may not reverse
+						engineer, decompile or disassemble System Software, create System Software derivative works, or attempt to create System Software source code from its object code. You may not (i) use any unauthorized, illegal, counterfeit or modified hardware or software with System
+						Software; (ii) use tools to bypass, disable or circumvent any PS4 system encryption, security or authentication mechanism; (iii) reinstall earlier versions of the System Software ("downgrading"); (iv) violate any laws, regulations or statutes or rights of SIE Inc or third
+						parties in connection with your access to or use of System Software; (v) use any hardware or software to cause System Software to accept or use unauthorized, illegal or pirated software or hardware; (vi) obtain System Software in any manner other than through SIE Inc's
+						authorized distribution methods; or (vii) exploit System Software in any manner other than to use it with your PS4 system according to the accompanying documentation and with authorized software or hardware, including use of System Software to design, develop, update or
+						distribute unauthorized software or hardware for use in connection with your PS4 system.<br /><br />These restrictions will be construed to apply to the greatest extent permitted by the law in your jurisdiction.<br /><br />&zwj;<strong
+							>3. SERVICES AND UPDATES; THIRD PARTY AGREEMENTS AND CONTENT<br /><br />&zwj;</strong
+						>SIE Inc may provide you with certain System Software updates, upgrades or services. Some updates, upgrades or services may be provided automatically without notice to you when you sign in to PlayStation™Network and others may be available to you through SIE Inc's website or
+						authorized channels. You consent to SIE Inc providing you these automatic updates, upgrades and services. Services may include the latest update or download of a new release of System Software containing security patches, new technology or revised settings and features that
+						may prevent access to unauthorized or pirated content or prevent use of unauthorized hardware or software in connection with your PS4 system. These updates, upgrades and services may have effects on the functionality of your PS4 system, and SIE Inc is not responsible to you
+						for any such effects or any harm caused by the installation process.<br /><br />You must install or have installed the most current version of System Software as soon as you reasonably can. Some updates, upgrades or services may change your current settings, cause a loss of
+						data or content or cause functionality or feature loss. SIE Inc recommends that you regularly back up all data that you can.<br /><br />Third parties may make other services or content available to you, and they may require you to accept their separate terms and conditions
+						and privacy policy. System Software may refer to, display or provide you with links to websites or content that third parties independently operate or maintain ("Third Party Content and Links").<br /><br />SIE Inc and its affiliated companies do not control or direct Third
+						Party Content and Links nor do SIE Inc and its affiliated companies monitor, approve, endorse, warrant or sponsor any Third Party Content and Links. SIE Inc and its affiliated companies have no liability to you for any Third Party Content and Links. Your reliance on any Third
+						Party Content and Links is at your own risk, and you assume all responsibilities and consequences resulting from your reliance.<br /><br />Please see your PS4 system documentation for information on possible access controls to Third Party Content and Links via your PS4
+						system's or PlayStation™Network's parental controls.<br /><br />&zwj;<strong>4. COLLECTION OF INFORMATION/ AUTHENTICATION<br /><br />&zwj;</strong>In order to operate SIE Inc's businesses and deliver products and services, SIE Inc may collect and retrieve information about
+						your hardware and software. This information may be used for system monitoring/diagnostics, marketing purposes, tracking user behavior anonymously, authentication, copy protection and other purposes. SIE Inc will also be able to know your console unique ID and your console IP
+						address which is automatically assigned to your PS4 system by your internet service provider when you connect your PS4 system to the internet. When you sign-in to your Account from your PS4 system, we may be able to link these information with your Account and other
+						information associated with your Account.<br /><br />This PS4 system allows users to record, share and stream gameplay sessions, which may include your voice or text communications with other players. Please refer to the PS4 User's Guide and Privacy Policy for your region for
+						further details on how this information will be used and who to contact if you have questions. You hereby waive any rights or expectation of privacy, confidentiality, or publicity for any information in your gameplay or communications via your PS4 system, except as described
+						in the PS4 User's Guide and Privacy Policy for your region.<br /><br />&zwj;<strong>5. INTERNET FEATURES<br /><br />&zwj;</strong>Using System Software features that require access to an Internet connection ("Internet Features") may require you to obtain wired or wireless
+						Internet service from a third-party internet service provider ("Internet Service Provider"). Some Internet Features may also require you to be signed in to PlayStation™Network. Internet access may NOT be available at your location, be free of charge or free from interruption
+						or disconnections. If you wish to obtain Internet Service Provider services for your PS4 system, you must enter into the necessary Internet Service Provider agreements for those services. You are responsible for all fees incurred in connection with access to or use of the
+						Internet.<br /><br />Certain Internet Features may operate depending upon Internet connection factors not under SIE Inc's control. Browsing websites, playing programs or downloading programs or data may result in viruses, loss or corruption of data or other problems, and you
+						assume all responsibilities and consequences resulting from engaging in these activities through your PS4 system.<br /><br />&zwj;<strong>6. WARRANTY DISCLAIMER AND LIMITATION OF LIABILITY<br /><br />&zwj;</strong>System Software is provided "AS IS" without any express or
+						implied warranties. SIE Inc, its affiliated companies and licensors expressly disclaim any implied warranty of merchantability, warranty of fitness for a particular purpose and warranty of non-infringement.<br /><br />IN NO EVENT ARE SIE Inc, ITS AFFILIATES AND LICENSORS
+						LIABLE FOR ANY LOSS OF DATA, LOSS OF PROFIT, OR ANY LOSS OR DAMAGE, WHETHER DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL, HOWEVER ARISING, AS A RESULT OF ACCESSING OR USING SYSTEM SOFTWARE. SO LONG AS THIS PROVISION IS ENFORCEABLE IN YOUR JURISDICTION, THE FOREGOING
+						LIMITATIONS, EXCLUSIONS AND DISCLAIMERS APPLY TO THE FULLEST EXTENT PERMITTED BY LAW EVEN IF ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.<br /><br />&zwj;<strong>7. VIOLATION OF AGREEMENT; TERMINATION OF RIGHTS AND SIE Inc REMEDIES<br /><br />&zwj;</strong>If SIE Inc determines
+						that you have violated this Agreement's terms, SIE Inc may itself or may procure the taking of any action to protect its interests such as disabling access to or use of some or all System Software, disabling use of this PS4 system online or offline, termination of your access
+						to PlayStation™Network, denial of any warranty, repair or other services provided for your PS4 system, implementation of automatic or mandatory updates or devices intended to discontinue unauthorized use, or reliance on any other remedial efforts as reasonably necessary to
+						prevent the use of modified or unpermitted use of System Software.<br /><br />SIE Inc, its affiliates and licensors reserve the right to bring legal action in the event of a violation of this Agreement. SIE Inc may participate in governmental or private legal action or
+						investigation relating to your use of System Software.<br /><br />&zwj;<strong>8. EXPORT CONTROL AND COMPLIANCE WITH LAWS<br /><br />&zwj;</strong>System Software may contain technology that is subject to certain restrictions under export-control laws and regulations. As
+						such, your PS4 system may not be exported or re-exported to persons and entities in violation of these laws and regulations. You must comply with these laws when using System Software.<br /><br />&zwj;<strong
+							>9. BINDING INDIVIDUAL ARBITRATION FOR CERTAIN RESIDENTS<br /><br />&zwj;</strong
+						>The following terms in this Section 9, to the fullest extent permitted under law, only apply to you if you are a resident of the United States or a country in North, Central or South America.<br /><br />The term "Dispute" means any dispute, claim, or controversy between you
+						and SIE Inc, Sony Interactive Entertainment LLC, any of their current or former affiliates, or any predecessor or successor entity to any of the foregoing, including Sony Computer Entertainment Inc., Sony Computer Entertainment America LLC, and Sony Interactive Entertainment
+						America LLC ("Sony Entity") regarding use of System Software, whether based in contract, statute, regulation, ordinance, tort (including fraud, misrepresentation, fraudulent inducement or negligence), or any other legal or equitable theory, and includes the validity,
+						enforceability or scope of this Section 9 (with the exception of the enforceability of the Class Action Waiver clause below). "Dispute" has the broadest possible meaning that will be enforced.<br /><br />If you have a Dispute (other than one described as excluded from
+						arbitration below) with any Sony Entity or a Sony Entity's officers, directors, employees and agents ("Adverse Sony Entity") that cannot be resolved through negotiation as required below, you and the Adverse Sony Entity must seek resolution of the Dispute only through
+						arbitration of that Dispute according to Section 9's terms and not litigate that Dispute in court. Arbitration means that the Dispute will be resolved by a neutral arbitrator instead of in a court by a judge or jury.<br /><br />YOU AND THE SONY ENTITIES AGREE THAT ANY CLAIM
+						FILED BY YOU OR BY A SONY ENTITY IN SMALL CLAIMS COURT IS NOT SUBJECT TO THE ARBITRATION TERMS CONTAINED IN THIS SECTION 9.IF YOU DO NOT WISH TO BE BOUND BY THE BINDING ARBITRATION AND CLASS ACTION WAIVER IN THIS SECTION 9, YOU MUST NOTIFY SIE Inc IN WRITING WITHIN 30 DAYS OF
+						THE DATE THAT YOU ACCEPT THIS AGREEMENT. YOUR WRITTEN NOTIFICATION MUST BE MAILED TO SONY INTERACTIVE ENTERTAINMENT INC. CARE OF SONY INTERACTIVE ENTERTAINMENT LLC, 2207 BRIDGEPOINTE PARKWAY, SAN MATEO, CA 94404, ATTN: LEGAL DEPARTMENT – WAIVER AND MUST INCLUDE: (1) YOUR
+						NAME, (2) YOUR ADDRESS, (3) YOUR SIGN-IN ID, IF YOU HAVE ONE, AND (4) A CLEAR STATEMENT THAT YOU DO NOT WISH TO RESOLVE DISPUTES WITH ANY SONY ENTITY THROUGH ARBITRATION.<br /><br />IF YOU HAVE A DISPUTE WITH ANY SONY ENTITY, YOU MUST SEND WRITTEN NOTICE TO SONY INTERACTIVE
+						ENTERTAINMENT INC. CARE OF SONY INTERACTIVE ENTERTAINMENT LLC, 2207 BRIDGEPOINTE PARKWAY, SAN MATEO, CA 94404, ATTN: LEGAL DEPARTMENT - DISPUTE RESOLUTION TO GIVE THE ADVERSE SONY ENTITY AN OPPORTUNITY TO RESOLVE THE DISPUTE INFORMALLY THROUGH NEGOTIATION.<br /><br />You
+						agree to negotiate resolution of the Dispute in good faith for no fewer than 60 days after you provide notice of the Dispute. If the Adverse Sony Entity does not resolve your Dispute within 60 days from its receipt of notice of the Dispute, you or the Adverse Sony Entity may
+						pursue your claim in arbitration pursuant to the terms in this Section 9.<br /><br />ANY DISPUTE RESOLUTION PROCEEDINGS, WHETHER IN ARBITRATION OR COURT, WILL BE CONDUCTED ONLY ON AN INDIVIDUAL BASIS AND NOT IN A CLASS OR REPRESENTATIVE ACTION OR AS A NAMED OR UNNAMED MEMBER
+						IN A CLASS, CONSOLIDATED, REPRESENTATIVE OR PRIVATE ATTORNEY GENERAL ACTION, UNLESS BOTH YOU AND THE ADVERSE SONY ENTITY SPECIFICALLY AGREE TO DO SO IN WRITING FOLLOWING INITIATION OF THE ARBITRATION.<br /><br />If you or the Adverse Sony Entity elect to resolve your Dispute
+						through arbitration, the party initiating the arbitration proceeding may initiate it with the American Arbitration Association ("AAA"), www.adr.org, or JAMS www.jamsadr.com. This Section 9's terms govern if they conflict with the rules of the arbitration organization that the
+						parties select.<br /><br />The Federal Arbitration Act ("FAA") governs the arbitrability of all Disputes involving interstate commerce. However, applicable federal or state law may also apply to the substance of a Dispute. For claims of less than $75,000, the AAA's
+						Supplementary Procedures for Consumer-Related Disputes ("Supplementary Procedures") apply, including the schedule of arbitration fees set forth in section C-8 of the Supplementary Procedures, for claims over $75,000, the AAA's Commercial Arbitration Rules and relevant fee
+						schedules for non-class action proceedings apply.<br /><br />The AAA rules are available at www.adr.org or by calling 1-800-778-7879. Further, if your claims do not exceed $75,000 and you provided notice to and negotiated in good faith with the Adverse Sony Entity as
+						described above, if the arbitrator finds that you are the prevailing party in the arbitration, you will be entitled to recover reasonable attorneys' fees and costs as determined by the arbitrator, in addition to any rights to recover the same under controlling state or
+						federal law afforded to the Adverse Sony Entity or you.<br /><br />The arbitrator will make any award in writing but need not provide a statement of reasons unless requested by a party. The arbitrator's award will be binding and final, except for any right of appeal provided
+						by the FAA, and may be entered in any court having jurisdiction over the parties for purposes of enforcement.<br /><br />You or the Adverse Sony Entity may initiate arbitration in either San Mateo County, California or the county in which you reside. If you select the county
+						of your residence, the Adverse Sony Entity may transfer the arbitration to San Mateo County if it agrees to pay any additional fees or costs you incur as a result of the change in location as determined by the arbitrator.If any clause within this Section 9 (other than the
+						Class Action Waiver clause above) is illegal or unenforceable, that clause will be severed from this Section 9, and the remainder of this Section 9 will be given full effect.<br /><br />If the Class Action Waiver clause is found to be illegal or unenforceable, this entire
+						Section 9 will be unenforceable, and the Dispute will be decided by a court.<br /><br />This Section 9 survives this Agreement's termination.<br /><br />&zwj;<strong>10. GOVERNING LAW AND VENUE<br /><br />&zwj;</strong>If you reside in Japan or country/area located in East
+						Asia or Southeast Asia, this Agreement is governed by, construed and interpreted in accordance with the laws of Japan except for its conflict of law rules. Any dispute arising under or in relation to this Agreement, shall be exclusively submitted to the Tokyo District Court
+						in Tokyo, Japan. If you reside in Europe, Africa, Australia and Oceania, Middle East, India or Russian Federation, this Agreement is governed by, construed and interpreted in accordance with English Law except for its conflict of law rules.<br /><br />If you reside elsewhere,
+						this Agreement is governed by, construed and interpreted in accordance with the laws of the State of California except for its conflict of law rules. If you are a resident of the United States, any Dispute not subject to arbitration and not initiated in small claims court
+						must be litigated in a court of competent jurisdiction in either the Superior Court for the State of California in the County of San Mateo or in the United States District Court for the Northern District of California.<br /><br />&zwj;<strong
+							>11. GENERAL LEGAL<br /><br />&zwj;</strong
+						>You are bound by this Agreement's most current version. SIE Inc may modify this Agreement's terms at any time. To access a printable, current version of this Agreement, go to
+						<a href="https://doc.dl.playstation.net/doc/ps4-eula/" target="_parent" class="link-2">https://doc.dl.playstation.net/doc/ps4-eula</a>. Please check this URL from time to time for changes to this Agreement. Your continued access to or use of System Software will signify your
+						acceptance of the latest version of this Agreement.<br /><br />If any provision of this Agreement is held invalid, illegal or unenforceable, the validity, legality and enforceability of the remaining provisions of this Agreement are not affected or impaired in any way. You
+						acknowledge that your breach of this Agreement would cause irreparable injury to SIE Inc for which monetary damages would not be an adequate remedy and that SIE Inc is entitled to equitable relief in addition to any other remedies it may have under law.<br /><br />This
+						Agreement constitutes the entire agreement between you and SIE Inc with respect to System Software and supersedes all prior or contemporaneous understandings regarding its subject matter. No failure to exercise and no delay in exercising any right under this Agreement
+						operates as a waiver of that right. SIE Inc may assign any of its rights under this Agreement, including its rights to enforce this Agreement's terms to any SIE Inc affiliate.
+					</p>
+				</div>
+				<div class="butttons-wrapper"><a data-w-id="5359fe2f-830b-0ab3-0193-8d5565a9b715" href="#" class="button w-button">Do Not&nbsp;Accept</a><a data-w-id="093b1466-7200-9ea4-18f7-378152c37900" href="#" class="button pad w-button">Accept</a></div>
+			</div>
+			<div data-w-id="55a103e2-d389-50e5-c391-c69c34dcb6cb" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="select-an-avatar">
+				<div class="header"><p class="heading-title">Select Your Avatar</p></div>
+				<div class="tabs-wrapper">
+					<a href="#" class="tabs selected w-button"
+						>RPG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24</a
+					><a href="#" class="tabs w-button">Action&nbsp;/&nbsp;Adventure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 43</a
+					><a href="#" class="tabs w-button">Characters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;88</a
+					><a href="#" class="tabs w-button">Creatures&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 59</a
+					><a href="#" class="tabs w-button"
+						>Items&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33</a
+					><a href="#" class="tabs w-button">Fighting&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10</a
+					><a href="#" class="tabs w-button">Miscellaneous&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 67</a>
+				</div>
+				<div data-w-id="fe9cd85d-ca21-99a7-2a2b-a04d8ec115fa" class="w-layout-grid avatar-grid">
+					<div class="avatar _1"></div>
+					<div class="avatar _2"></div>
+					<div class="avatar _3"></div>
+					<div class="avatar _4"></div>
+					<div class="avatar _5"></div>
+					<div class="avatar _6"></div>
+					<div class="avatar _7"></div>
+					<div class="avatar _8"></div>
+					<div id="w-node-_0524101c-0212-32ec-0649-48f21565d128-d44614f5" class="avatar _9"></div>
+					<div id="w-node-b7c37489-aedc-b3c4-9faa-ffdf166c5f08-d44614f5" class="avatar _10"></div>
+					<div id="w-node-dc521971-994a-5fd0-aabb-5b7bbb897c12-d44614f5" class="avatar _11"></div>
+					<div id="w-node-_20bba0e1-a32b-6596-a8cf-d91725578c68-d44614f5" class="avatar _12"></div>
+					<div id="w-node-a0930dd5-dafc-8ecb-8530-366167f53ab1-d44614f5" class="avatar _13"></div>
+					<div id="w-node-_5bd2075c-181f-67ca-eda0-81eb355dc06e-d44614f5" class="avatar _14"></div>
+					<div id="w-node-_62320b7f-39fe-b32d-8a57-95f4b4526fbf-d44614f5" class="avatar _15"></div>
+					<div id="w-node-_35aeb2f6-4115-63d8-9261-bf1c21912919-d44614f5" class="avatar _16"></div>
+					<div id="w-node-f9e18ee7-aeda-2a12-7a24-314eda28f122-d44614f5" class="avatar _17"></div>
+					<div id="w-node-_259db832-bada-2261-d92c-ae4096621426-d44614f5" class="avatar _18"></div>
+					<div id="w-node-b72e8a70-e8b7-26d9-ae21-695a4fd710f6-d44614f5" class="avatar _19"></div>
+					<div id="w-node-_19ca4546-241e-e111-8260-cbb2ad464f17-d44614f5" class="avatar _20"><div class="avatar _19"></div></div>
+					<div id="w-node-_44dbc493-3985-5f19-5482-1227305a6656-d44614f5" class="avatar _21"><div class="avatar _19"></div></div>
+					<div id="w-node-_22277004-6b39-4b6d-76b8-dfd5e92a00f3-d44614f5" class="avatar _22"><div class="avatar _19"></div></div>
+					<div id="w-node-_0ff5ac4f-5cf8-f069-bdf3-d4e86c199bbe-d44614f5" class="avatar _23"><div class="avatar _19"></div></div>
+					<div id="w-node-e4706d7c-e377-0d09-2dbc-99df76c1561f-d44614f5" class="avatar _24"><div class="avatar _19"></div></div>
+				</div>
+			</div>
+			<div data-w-id="40a924af-a066-5330-59dd-e15865d18de1" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="get-psn">
+				<div class="div-block">
+					<img src="/assets/65e9d686dfebbc06d446153d_PSN20Badge.png" width="60" alt="" class="logos" />
+					<h1 class="playstation-network">PlayStation Network</h1>
+				</div>
+				<p class="get-more">Get more out of your PS4!</p>
+				<p class="method">1.&nbsp;Download the latest games and demos from PlayStation&nbsp;Store.<br /><br />2. Become Friends with other players and chat with them.<br /><br />3. Share all your great moments.<br /></p>
+				<p class="create">You can create a new account or use an existing one.<br /></p>
+				<div class="buttons-wrapper"><a data-w-id="6f026c99-141c-dc31-1f5c-32d53f735388" href="#" class="skip w-button">Skip</a><a data-w-id="6f026c99-141c-dc31-1f5c-32d53f73538a" href="#" class="button next w-button">Next</a></div>
+			</div>
+			<div data-w-id="be4bcb21-cbcf-10af-3eb8-5f089909bd4f" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="guest-user">
+				<div class="psn-wrapper-guest">
+					<img src="/assets/65e9d686dfebbc06d446153d_PSN20Badge.png" width="60" alt="" class="logos" />
+					<h1 class="playstation-network">PlayStation Network</h1>
+				</div>
+				<div data-w-id="9a8db4b1-8ecb-621f-99b8-a727aa774a0d" class="signin-wrapper">
+					<div class="frame phone"><img src="/assets/65e9d686dfebbc06d446154c_Phone.svg" alt="" class="image-3" /></div>
+					<div>
+						<h1 class="heading-2">Sign in with&nbsp;Smartphone</h1>
+						<p class="paragraph">Go online using the PlayStation App to prevent others from seeing your&nbsp;ID and password.</p>
+					</div>
+				</div>
+				<p class="explanation">If you sign in to PlayStation&nbsp;Network, trophies you earn can be saved on the server. PlayStation&nbsp;Plus members can also access their saved data using online storage.</p>
+				<div class="butttons-wrapper"><a data-w-id="2cca57d0-67b9-0212-f52d-0cdebdf9f69a" href="#" class="button-4 w-button">Do&nbsp;Not Sign In</a><a data-w-id="2cca57d0-67b9-0212-f52d-0cdebdf9f69c" href="#" class="button-4 pad w-button">Sign In&nbsp;Manually</a></div>
+			</div>
+			<div data-w-id="92f5545b-bb2a-3c7e-76ee-b6070efdecbf" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="smartphone-signin">
+				<div class="psn-wrapper-signin">
+					<img src="/assets/65e9d686dfebbc06d446153d_PSN20Badge.png" width="60" alt="" class="logos" />
+					<h1 class="playstation-network">PlayStation Network</h1>
+				</div>
+				<p class="device-name">Device&nbsp;Name:&nbsp;PS4-1990</p>
+				<div class="serial">1618 - 0235 - 9710</div>
+				<div class="countdown w-embed w-script">
+					<span id="countdown">0 Seconds Remaining</span>
+
+					<script>
+						var seconds = 283,
+							$seconds = document.querySelector('#countdown')
+						;(function countdown() {
+							$seconds.textContent = seconds + ' Seconds Remaining' + (seconds == 1 ? '' : '')
+							if (seconds == 0) setTimeout(countdown, 1000)
+						})()
+					</script>
+				</div>
+				<p class="steps">
+					1. Start PlayStation App on your smartphone or tablet.<br /><br />2. Tap the PS button and select Guest Log-In.<br /><br />3. Scan the number with the camera on your smartphone or tablet.<br /><br />4. Check that this PS4's name is displayed and finally select 0K.
+				</p>
+			</div>
+			<div data-w-id="600118ed-1ee6-54ea-87d9-8a8efea87f1f" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="select-name">
+				<div class="header"><p class="heading-title">Create User</p></div>
+				<div class="w-form">
+					<form id="email-form" name="email-form" data-name="Email Form" method="get" class="form" data-wf-page-id="65e9d686dfebbc06d44614f5" data-wf-element-id="be096995-4119-d80e-b2b2-f2edc236cd3e" aria-label="Email Form">
+						<div data-w-id="f5f41a55-f708-1c9b-141e-52d5cf669752" class="profile-card pad-copy">
+							<div class="new"></div>
+							<div class="user-wrapper"><h1 class="title pad">Change Avatar</h1></div>
+						</div>
+						<input class="text-field w-input" maxlength="256" name="Name" data-name="Name" placeholder="Name" type="text" id="Name" /><input type="submit" data-wait="Please wait..." class="submit-button pad w-button" value="Confirm" />
+					</form>
+					<div class="success-message w-form-done" tabindex="-1" role="region" aria-label="Email Form success">
+						<div data-w-id="8a785f0d-4030-45bf-0fc8-0bf9db6c4f72" class="panda-success">
+							<p class="welcome">Welcome to Playstation 4!</p>
+							<div data-w-id="f7f74978-7e16-385f-d40e-87ebecec4a7c" class="profile-card pad-copy">
+								<div class="new"></div>
+								<div class="user-wrapper"><h1 class="title pad">Panda</h1></div>
+							</div>
+						</div>
+						<a data-w-id="be096995-4119-d80e-b2b2-f2edc236cd54" href="#" class="form-button w-button">OK</a>
+					</div>
+					<div class="error-message w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure"><div>Oops! Something went wrong while submitting the form.</div></div>
+				</div>
+			</div>
+			<div data-w-id="5d5cd041-de83-35c6-3b89-0733487dcb01" style="transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d" class="manual-signin">
+				<div class="psn-wrapper">
+					<img src="/assets/65e9d686dfebbc06d446153d_PSN20Badge.png" width="60" alt="" class="logos" />
+					<h1 class="playstation-network">PlayStation Network</h1>
+				</div>
+				<p class="description">Go online by signing in to PlayStation&nbsp;Network using your Sign-In&nbsp;ID.</p>
+				<div class="w-form">
+					<form id="email-form" name="email-form" data-name="Email Form" method="get" class="form" data-wf-page-id="65e9d686dfebbc06d44614f5" data-wf-element-id="5d5cd041-de83-35c6-3b89-0733487dcb09" aria-label="Email Form">
+						<input class="text-field w-input" maxlength="256" name="Sign-In" data-name="Sign In" placeholder="your@email.com" type="email" id="Sign-In-3" /><input
+							class="text-field w-input"
+							maxlength="256"
+							name="Password-2"
+							data-name="Password 2"
+							placeholder="Password"
+							type="password"
+							id="Password-2"
+							required=""
+						/><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Sign In" />
+					</form>
+					<div class="success-message w-form-done" tabindex="-1" role="region" aria-label="Email Form success"><div class="text-block">CE-33992-6 — PSN sign-in failed at [Test Internet Connection]</div></div>
+					<div class="error-message w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure"><div>Oops! Something went wrong while submitting the form.</div></div>
+				</div>
+				<a href="#" class="button-copy w-button">Create an Account</a>
+			</div>
+			<div data-w-id="f9e7db17-cca9-dc8f-68dc-34b03895a02e" style="opacity: 0" class="footer">
+				<div data-w-id="f9e7db17-cca9-dc8f-68dc-34b03895a02f" class="button-wrapper e">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys" />
+					<h1 class="caption">Enter</h1>
+				</div>
+				<div class="button-wrapper login">
+					<div data-w-id="f9e7db17-cca9-dc8f-68dc-34b03895a033" class="back-to-intro">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+						<h1 class="caption">Back</h1>
+					</div>
+					<div data-w-id="c1f347c4-20dc-8470-58ae-a1be1e713a7e" class="back-to-users" style="transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+						<h1 class="caption">Back</h1>
+					</div>
+					<div data-w-id="09953a48-ffa9-40c6-2f3c-71ab6007878d" class="back-to-add-user" style="transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+						<h1 class="caption">Back</h1>
+					</div>
+					<div data-w-id="6462e44b-748a-9ed2-260e-9e3a8c5bdedc" class="back-to-accept-terms" style="transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+						<h1 class="caption">Back</h1>
+					</div>
+					<div data-w-id="d0b19928-5f61-eff3-d3cc-c855a5a180d8" class="back-to-get-psn" style="transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+						<h1 class="caption">Back</h1>
+					</div>
+					<div data-w-id="1b7036f6-b6be-37ea-bd49-8fa9168eb6c0" class="back-to-select-avatar" style="transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+						<h1 class="caption">Back</h1>
+					</div>
+					<div data-w-id="2a4504d2-bcd4-1740-302b-5893187c1c86" class="back-to-guest-user" style="transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+						<h1 class="caption">Back</h1>
+					</div>
+					<div data-w-id="4aaf92c8-f914-5bb4-716c-dfe4199186ba" class="back-to-signin" style="transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+						<h1 class="caption">Back</h1>
+					</div>
+				</div>
+				<div data-w-id="cd43e736-928e-28d6-af46-b69b9d9f0dd3" class="button-wrapper sm">
+					<img src="/assets/65e9d686dfebbc06d44615a2_Options.png" alt="" class="options" />
+					<h1 class="caption">Options Menu</h1>
+				</div>
+				<div data-w-id="b40a9c89-c159-c549-1604-b4b37cc288cd" class="button-wrapper fp">
+					<img src="/assets/65e9d686dfebbc06d44615a7_Triangle.png" alt="" class="keys" />
+					<h1 class="caption">Forgot&nbsp;Your Password?</h1>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="a4542175-2ab1-56e8-6a80-0fcf770c07b7" class="home-screen">
+			<div data-w-id="5bd2d01b-fdce-0f58-fee4-b9fdae227bf1" style="opacity: 0" class="nav-window">
+				<div data-w-id="a25eff91-957e-2dc7-db26-e5a37522a98e" class="ps-window">
+					<h1 class="nav-title">BaseStation Plus</h1>
+					<h1 class="nav-description">All your BaseStation Plus benefits in one place.Get your games, exclusive discounts, news, and more!</h1>
+				</div>
+				<div data-w-id="c5a33766-9b28-0c89-1349-0dda62b847a3" class="notifications-window">
+					<h1 class="nav-title">New Notifications</h1>
+					<h1 class="nav-description">You have 4 notifications.</h1>
+				</div>
+				<div data-w-id="bf487055-c96f-63e2-5618-40c110588758" class="communities-window">
+					<h1 class="nav-title">Telegram</h1>
+					<h1 class="nav-description">Join us on Telegram!</h1>
+				</div>
+				<div data-w-id="674fa1c6-947b-a298-9746-5d9636f8fade" class="friends-window">
+					<h1 class="nav-title">DexScreener</h1>
+					<h1 class="nav-description">View our journey on DexScreener!</h1>
+				</div>
+				<div data-w-id="a7d4a0b1-3064-820a-8110-95ec355fd839" class="events-window">
+					<h1 class="nav-title">Recommended Events</h1>
+					<h1 class="nav-description">There are no upcoming events.</h1>
+				</div>
+				<div data-w-id="eea6e354-a8b5-977b-a3f3-d58aac6b9896" class="messages-window">
+					<h1 class="nav-title">Recent Messages</h1>
+					<h1 class="nav-description">There are no messages.<br />Create a text or voice message and send it to your Friends!</h1>
+				</div>
+				<div data-w-id="5bdd69df-23fc-865f-a2f7-94659f004d89" class="party-window">
+					<h1 class="nav-title">Twitter</h1>
+					<h1 class="nav-description">Join our Twitter community!</h1>
+				</div>
+				<div data-w-id="e9483d88-baf8-8a43-6fe5-46a1a508617d" class="dextoolswinow">
+					<h1 class="nav-title">DexTools</h1>
+					<h1 class="nav-description">View our journey on DexTools!</h1>
+				</div>
+				<div data-w-id="54324a8a-9d5e-886c-3d94-3c2cc1672b27" class="profile-window">
+					<h1 class="nav-title">Profile</h1>
+					<h1 class="nav-description">Customize your profile, view your activities, and control your experience.</h1>
+				</div>
+				<div data-w-id="9e9451c7-ca30-57dc-8829-1c5d1474ac44" class="trophy-window">
+					<h1 class="nav-title">Trophies You Earned</h1>
+					<div class="div-block-20">
+						<img src="/assets/65e9d686dfebbc06d446155d_star.svg" alt="" class="image-9" />
+						<div>
+							<h1 class="heading-6">10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text-span">48%</span></h1>
+							<div class="div-block-21"></div>
+						</div>
+						<h1 class="heading-7"><span class="text-span-2">Total</span><br />715</h1>
+						<img src="/assets/65e9d686dfebbc06d4461521_Chrome.png" alt="" class="image-10" />
+						<h1 class="heading-6-copy">0</h1>
+						<img src="/assets/65e9d686dfebbc06d446153a_Gold.png" alt="" class="image-10" />
+						<h1 class="heading-6-copy">11</h1>
+						<img src="/assets/65e9d686dfebbc06d446157a_Silver.png" alt="" class="image-10" />
+						<h1 class="heading-6-copy">94</h1>
+						<img src="/assets/65e9d686dfebbc06d4461597_Bronze.png" alt="" class="image-10" />
+						<h1 class="heading-6-copy-copy">61</h1>
+					</div>
+				</div>
+				<div data-w-id="1ec5b1ae-49bf-e624-1f8a-16068813099c" class="settings-window">
+					<h1 class="nav-title">Settings</h1>
+					<h1 class="nav-description">Manage your BaseStation 4.</h1>
+				</div>
+				<div data-w-id="f7549558-de99-3c35-b5f9-de53a484d513" class="power-window">
+					<h1 class="nav-title">Power</h1>
+					<h1 class="nav-description">Switch users or turn off your BaseStation.</h1>
+				</div>
+			</div>
+			<div data-w-id="8f0c5525-09c1-ade0-ce3d-60ff6ecd941a" class="navbar">
+				<div data-w-id="80ef64b2-0678-29dd-652a-d4daf4c1a99c" class="overlay"></div>
+				<div data-w-id="b2fd4f5f-f561-513e-6040-f3593b37c413" class="nav-wrapper"><img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="nav-icon" /></div>
+				<div data-w-id="cfa5e5ca-79f4-f0dd-bc8e-38fd51b2c74e" class="nav-wrapper"><img src="/assets/65e9d686dfebbc06d44615e3_Notification.png" alt="" class="nav-icon" /></div>
+				<div data-w-id="e71cf0ca-b03a-03a1-2578-494e893036df" class="nav-wrapper"><img src="/assets/65e9d686dfebbc06d4461549_calendar.svg" alt="" class="nav-icon" /></div>
+				<div data-w-id="f72b6b1a-7ed9-1cc4-4d44-7ca4c3829c22" class="nav-wrapper"><img src="/assets/65e9d686dfebbc06d44615be_2.png" alt="" class="nav-icon" /></div>
+				<div data-w-id="3002f2f0-bc72-b4aa-a039-d30ddaca9239" class="nav-wrapper"><img src="/assets/65e9d686dfebbc06d44615c0_3.png" alt="" class="nav-icon" /></div>
+				<div data-w-id="4897097a-d50b-3a91-5ddc-e3187d7932a7" class="nav-wrapper profile-copy">
+					<div class="online"></div>
+					<div class="mini-pp"></div>
+					<h1 data-w-id="1c61587e-2694-6cb7-c387-95ebd1f5d047" class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" data-w-id="f5fe3fd9-ac45-69c8-0859-eca28e45c915" alt="" class="mini-ps" />
+				</div>
+				<div data-w-id="6180a2b1-1f2a-9922-a408-a8757d853443" class="nav-wrapper"><img src="/assets/660d1e1d3652b91eae08b342_Dex20Tools20(1).png" alt="" class="nav-icon" /></div>
+				<div data-w-id="ecac1678-0cbf-2552-7bca-28363c12668e" class="nav-wrapper"><img src="/assets/65e9d686dfebbc06d44615cc_twitter20(2).png" alt="" class="nav-icon" /></div>
+				<div data-w-id="d15db054-a30f-7b6c-e659-9c96f39f6315" class="nav-wrapper"><img src="/assets/65e9d686dfebbc06d4461592_messages.png" alt="" class="nav-icon" /></div>
+				<div data-w-id="136d2549-2a70-feb2-df8f-0e28557c6ad9" class="nav-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461538_Trophy.png" alt="" class="nav-icon" />
+					<div data-w-id="138c90bc-a255-98dd-8f78-44f87b8639df" class="div-block-22">
+						<img src="/assets/65e9d686dfebbc06d446155d_star.svg" alt="" class="star" />
+						<h1 class="_10">10</h1>
+					</div>
+				</div>
+				<div data-w-id="df28c12f-6e3a-abcd-7000-d1ae5ef8212d" class="nav-wrapper s"><img src="/assets/65e9d686dfebbc06d4461528_Settings.png" alt="" class="nav-icon" /></div>
+				<div data-w-id="569efb27-7a8c-9774-bd4b-dc698de2c161" class="nav-wrapper p"><img src="/assets/65e9d686dfebbc06d4461505_power.svg" alt="" class="nav-icon" /></div>
+			</div>
+			<a data-w-id="826566f0-582a-f1f0-da33-a1045692ff72" href="#" class="nav-shrinker w-button"></a>
+			<div id="slider" data-w-id="564f22f2-4e9d-392d-b728-98490a54c5e3" class="slider">
+				<div class="apps">
+					<div data-w-id="bc810bc7-abf8-ff0e-0cc4-e10aaa2de6f8" class="app-wrapper">
+						<div class="store">
+							<img src="/assets/660083b98ca92e548d3bef95_IMG_2902.png" sizes="100vw" srcset="/assets/660083b98ca92e548d3bef95_IMG_2902-p-500.png 500w, /assets/660083b98ca92e548d3bef95_IMG_2902-p-800.png 800w, /assets/660083b98ca92e548d3bef95_IMG_2902.png 997w" alt="" class="bag" />
+							<h1 class="heading-5">Store</h1>
+						</div>
+						<div data-w-id="3d77b84a-2966-6218-74ba-35cb1b3ad7c0" class="tag">Start</div>
+						<h1 data-w-id="c47525d7-93a2-bec7-139d-fa6618d3a2be" class="app-title">BaseStation Store</h1>
+					</div>
+					<div data-w-id="c92a049d-f3a9-678c-7bb4-9caccd3e7b97" class="app-wrapper">
+						<div class="gamepad"><img src="/assets/65e9d686dfebbc06d4461587_gamepad.svg" alt="" class="image-8" /></div>
+						<div data-w-id="c92a049d-f3a9-678c-7bb4-9caccd3e7b99" class="tag">▼</div>
+						<h1 data-w-id="7ea1b257-4c41-b951-43c8-62748f46fea4" class="app-title">Our Socials</h1>
+					</div>
+					<div data-w-id="604a1f85-1265-1bfc-4403-d8f7f911f188" class="app-wrapper">
+						<div class="the-witcher"></div>
+						<div data-w-id="604a1f85-1265-1bfc-4403-d8f7f911f18a" class="tag">Start</div>
+						<h1 data-w-id="47677309-1650-5944-1779-f55b919a2f18" class="app-title">Call of Degen: BLACK BASE II</h1>
+					</div>
+					<div data-w-id="81f4d28c-291a-8488-3d9d-8ed659271fe0" class="app-wrapper">
+						<div class="last-of-us"></div>
+						<div data-w-id="81f4d28c-291a-8488-3d9d-8ed659271fe2" class="tag">Start</div>
+						<h1 data-w-id="065e8217-ad81-838e-483e-775824efc51d" class="app-title">Base Theft Auto</h1>
+					</div>
+					<div data-w-id="7cbb7718-199f-7c7b-12d3-3887d18a01db" class="app-wrapper">
+						<div class="batman"></div>
+						<div data-w-id="7cbb7718-199f-7c7b-12d3-3887d18a01dd" class="tag">Start</div>
+						<h1 data-w-id="022bf4b5-a2d1-e2e6-170d-786896c7fb85" class="app-title">Jeet Fighter II</h1>
+					</div>
+					<div data-w-id="9713fdf0-bde0-9a9f-0aeb-40838a8bf3a2" class="app-wrapper">
+						<div class="god-of-war"></div>
+						<div data-w-id="9713fdf0-bde0-9a9f-0aeb-40838a8bf3a4" class="tag">Start</div>
+						<h1 data-w-id="073f6bae-be31-8bf7-d4ad-a718d88dfcee" class="app-title">God of Base</h1>
+					</div>
+					<div data-w-id="4ecce04b-5e62-4a74-9fe9-8bc782c7a4be" class="app-wrapper">
+						<div class="gamepad"><img src="/assets/65e9d686dfebbc06d4461576_TV.png" alt="" class="image-8" /></div>
+						<div data-w-id="4ecce04b-5e62-4a74-9fe9-8bc782c7a4c1" class="tag">▼</div>
+						<h1 data-w-id="3f9d5803-267c-061c-2f12-f141c24c3983" class="app-title">TV&nbsp;&amp;&nbsp;Video</h1>
+					</div>
+					<div data-w-id="3e7157a0-1ff7-9440-f611-71d0eec9587a" class="app-wrapper">
+						<div class="gamepad"><img src="/assets/65e9d686dfebbc06d4461520_Library.png" alt="" class="image-8" /></div>
+						<div data-w-id="3e7157a0-1ff7-9440-f611-71d0eec9587d" class="tag">Start</div>
+						<h1 data-w-id="f858fc7a-80e2-7f3f-e70d-fd39467d3994" class="app-title">Library</h1>
+					</div>
+				</div>
+			</div>
+			<div class="time w-embed w-script">
+				<span id="time">11:27</span>
+
+				<script type="text/javascript">
+					<!--
+					function updateTime() {
+						var currentTime = new Date()
+						var hours = currentTime.getHours()
+						var minutes = currentTime.getMinutes()
+						if (minutes < 10) {
+							minutes = '0' + minutes
+						}
+						var v = hours + ':' + minutes
+						if (hours > 11) {
+						}
+						setTimeout('updateTime()', 1000)
+						document.getElementById('time').innerHTML = v
+					}
+					updateTime()
+					//-->
+				</script>
+			</div>
+		</div>
+		<div data-w-id="294318d9-3a34-2fb9-2a99-7ed04a7b0068" class="playstation-store">
+			<div class="header">
+				<img
+					src="/assets/6600843238088944d620824f_IMG_290120(1).png"
+					sizes="100vw"
+					srcset="/assets/6600843238088944d620824f_IMG_290120(1)-p-500.png 500w, /assets/6600843238088944d620824f_IMG_290120(1)-p-800.png 800w, /assets/6600843238088944d620824f_IMG_290120(1).png 996w"
+					alt=""
+					class="share-icon ps"
+				/>
+				<p class="heading-title ps">BaseStation™Store</p>
+				<img src="/assets/65e9d686dfebbc06d446154d_search.svg" alt="" class="share-icon lk" />
+				<h1 class="stat-title space">Search</h1>
+				<img src="/assets/65e9d686dfebbc06d446158f_cart.svg" alt="" class="share-icon lk" />
+				<h1 class="stat-title space">Cart</h1>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps space" />
+					<h1 class="user-name">USD 32.00</h1>
+				</div>
+			</div>
+			<div class="library-wrapper">
+				<div class="communities-wrapper">
+					<div class="events-nav">
+						<div class="tab selected-copy">
+							<div class="info-wrap"><h1 class="stat-title light">Featured</h1></div>
+						</div>
+						<div class="tab"><h1 class="stat-title light">What's Hot</h1></div>
+						<div class="tab"><h1 class="stat-title light">Special&nbsp;Offers</h1></div>
+						<div class="tab"><h1 class="stat-title light">Just for You</h1></div>
+						<div class="tab"><h1 class="stat-title light">Popular</h1></div>
+						<div class="tab"><h1 class="stat-title light">Games</h1></div>
+					</div>
+					<div class="featured-apps">
+						<div class="w-layout-grid showcase-grid">
+							<div id="w-node-aaa7226d-c482-2d14-9315-26d3c3c4ca57-d44614f5" class="store-box _1"></div>
+							<div id="w-node-_139f65f4-11b5-7004-5e2f-e99f7a39c7fd-d44614f5" class="store-box _2"></div>
+							<div id="w-node-_8f851249-7b38-942a-55aa-3ecd45a47e18-d44614f5" class="store-box _3"></div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-3">
+					<div class="button-wrapper">
+						<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+						<h1 class="caption-2">Enter</h1>
+					</div>
+					<div data-w-id="d3811563-973c-814c-094e-8d0551dfcad6" class="button-wrapper">
+						<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+						<h1 class="caption-2">Back</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="ca60d70b-c5f8-fd59-3b0c-625805ae3b50" class="notifications">
+			<div class="header"><p class="heading-title">Notifications</p></div>
+			<div class="container">
+				<div class="notification-list">
+					<div class="notification-tab">
+						<h1 class="date">1 Hour Ago</h1>
+						<div class="not-thumb"></div>
+						<div class="info-wrap">
+							<h1 class="notification-title">There are new events for God of BASE.</h1>
+							<h1 class="subtitle">New weapons and armour in stores and new bonuses available.</h1>
+						</div>
+					</div>
+					<div class="notification-tab">
+						<h1 class="date">7 Hours Ago</h1>
+						<div class="not-thumb mk11"></div>
+						<div class="info-wrap">
+							<h1 class="notification-title">Installed</h1>
+							<div class="game-div"><h1 class="stat">Mortal Kombat 11: Version 1.13</h1></div>
+							<h1 class="stat">Update File</h1>
+						</div>
+					</div>
+					<div class="notification-tab">
+						<h1 class="date">5 Hours Ago</h1>
+						<div class="not-thumb witcher"></div>
+						<div class="info-wrap">
+							<h1 class="notification-title">Trophy Earned</h1>
+							<div class="game-div">
+								<img src="/assets/65e9d686dfebbc06d4461597_Bronze.png" height="15" alt="" class="mini-icon" />
+								<h1 class="stat">Playing House &nbsp;|&nbsp;&nbsp;Call of Degens: BLACK BASE II</h1>
+							</div>
+						</div>
+					</div>
+					<div class="notification-tab">
+						<h1 class="date">12/15/2019</h1>
+						<div class="not-thumb spiderman"></div>
+						<div class="info-wrap">
+							<h1 class="notification-title">Installed</h1>
+							<div class="game-div"><h1 class="stat">Marvel's Spider-Man</h1></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-5">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="4b3074ab-9637-ffac-b122-4ee90ea86891" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d44615a7_Triangle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Delete</h1>
+				</div>
+				<div data-w-id="4b3074ab-9637-ffac-b122-4ee90ea86899" class="button-wrapper pad">
+					<img src="/assets/65e9d686dfebbc06d44615a2_Options.png" alt="" class="options-2" />
+					<h1 class="caption-2">Options Menu</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="ede0f071-2c5e-682e-47f7-afd1aed72fc1" class="events">
+			<div class="header"><p class="heading-title">Events</p></div>
+			<div class="library-wrapper">
+				<div class="event-wrapper">
+					<div class="events-nav">
+						<div class="tab underline">
+							<img src="/assets/65e9d686dfebbc06d446150f_heart.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Your Events</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d44614fc_star.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Recommended</h1></div>
+						</div>
+						<div class="tab selected">
+							<img src="/assets/65e9d686dfebbc06d4461557_squares.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">All&nbsp;Events</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="share-icon ga" />
+							<div class="info-wrap"><h1 class="stat-title">Games</h1></div>
+						</div>
+						<div class="tab underline">
+							<img src="/assets/65e9d686dfebbc06d4461589_swords.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Tournaments</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446150e_hands.svg" alt="" class="share-icon" />
+							<div class="info-wrap"><h1 class="stat-title">Invitations</h1></div>
+						</div>
+						<div class="tab fade-copy"><h1 class="stat-title">Create Event</h1></div>
+						<div class="tab fade-copy">
+							<img src="/assets/65e9d686dfebbc06d446150b_ninja.svg" alt="" class="share-icon" />
+							<h1 class="stat-title">Teams</h1>
+						</div>
+					</div>
+					<div class="events-panel">
+						<div class="w-layout-grid grid-6">
+							<div class="event _1"></div>
+							<div class="event _2"></div>
+							<div class="event _3"></div>
+							<div class="event _4"></div>
+							<div class="event _5"></div>
+							<div class="event _6"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="f8906de6-eeef-a39b-ce55-242073c9d404" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="5b3508e2-304d-064e-cb77-c0b743d0bdc7" class="communities">
+			<div class="header"><p class="heading-title">Communities</p></div>
+			<div class="library-wrapper">
+				<div class="communities-wrapper">
+					<div class="events-nav">
+						<div class="tab underline">
+							<img src="/assets/65e9d686dfebbc06d446154d_search.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Search</h1></div>
+						</div>
+						<div class="tab selected">
+							<img src="/assets/65e9d686dfebbc06d4461567_communities.png" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Your Communities</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="share-icon ga" />
+							<div class="info-wrap"><h1 class="stat-title">Your&nbsp;Games</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d4461579_Friends.png" alt="" class="share-icon" />
+							<div class="info-wrap"><h1 class="stat-title">Friends' Communities</h1></div>
+						</div>
+						<div class="tab down">
+							<img src="/assets/65e9d686dfebbc06d446158b_graph.svg" alt="" class="share-icon" />
+							<div class="info-wrap"><h1 class="stat-title">Trending&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100</h1></div>
+						</div>
+						<div class="tab fade-copy"><h1 class="stat-title">Create a Community</h1></div>
+					</div>
+					<div class="right-panel">
+						<h1 class="panel-text">Play your favorite games with friends and hang out<br /><br />with other fans. Create or join a Community today!</h1>
+					</div>
+				</div>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="4b16f25b-cce0-b306-8643-0f302a7caddd" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="e5bac731-0f2c-23f3-d568-c849a71b9cb0" class="friends">
+			<div class="header"><p class="heading-title">Friends</p></div>
+			<div class="library-wrapper">
+				<div class="communities-wrapper">
+					<div class="events-nav">
+						<div class="tab underline">
+							<img src="/assets/65e9d686dfebbc06d446154d_search.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Search</h1></div>
+						</div>
+						<div class="tab selected">
+							<img src="/assets/65e9d686dfebbc06d4461567_communities.png" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">All Friends</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="share-icon ga" />
+							<div class="info-wrap"><h1 class="stat-title">Custom Lists</h1></div>
+						</div>
+						<div class="tab underline">
+							<img src="/assets/65e9d686dfebbc06d446154d_search.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Follow</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="share-icon ga" />
+							<div class="info-wrap"><h1 class="stat-title">Now Playing</h1></div>
+						</div>
+						<div class="tab underline">
+							<img src="/assets/65e9d686dfebbc06d446154d_search.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Players Met</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="share-icon ga" />
+							<div class="info-wrap"><h1 class="stat-title">Friend Requests</h1></div>
+						</div>
+					</div>
+					<div class="right-panel">
+						<h1 class="stat-title-copy">When you become Friends with players, they appear here.<br /><br />Try sending Friend requests to other players!</h1>
+					</div>
+				</div>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="969b3106-de00-af3a-5216-52d8686b7d59" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+				<div data-w-id="969b3106-de00-af3a-5216-52d8686b7d62" class="button-wrapper pad">
+					<img src="/assets/65e9d686dfebbc06d44615a2_Options.png" alt="" class="options-2" />
+					<h1 class="caption-2">Options Menu</h1>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="39f8dd51-165f-0610-5e45-5351c7a2eab6" class="profile">
+			<div data-w-id="03091567-1aea-cddd-4881-371465147eba" class="close-game">
+				<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys" />
+				<h1 class="caption">Close</h1>
+			</div>
+			<div class="div-block-44">
+				<div class="div-block-46">
+					<div class="online-copy"></div>
+					<div class="div-block-45"></div>
+					<h1 class="user-name-copy">$BS4 NORMIE</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps-copy" />
+				</div>
+				<div class="div-block-26-copy">
+					<div class="div-block-30"><a href="#" class="button-5 w-button">Set Online Status</a><a href="#" class="button-5-copy w-button">• • •</a></div>
+					<div class="profile-tab">
+						<img src="/assets/65e9d686dfebbc06d446159b_Profile.png" alt="" class="share-icon s-copy" />
+						<h1 class="profile-button">Overview</h1>
+					</div>
+					<div class="profile-tab">
+						<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="share-icon p" />
+						<h1 class="profile-button">Games</h1>
+					</div>
+					<div class="profile-tab">
+						<img src="/assets/65e9d686dfebbc06d4461579_Friends.png" alt="" class="share-icon p-copy" />
+						<h1 class="profile-button">Friends &nbsp;|&nbsp;&nbsp;Communities</h1>
+					</div>
+					<div class="profile-tab">
+						<img src="/assets/65e9d686dfebbc06d4461510_picture.svg" alt="" class="share-icon ss" />
+						<h1 class="profile-button">Media</h1>
+					</div>
+					<div class="profile-tab">
+						<img src="/assets/65e9d686dfebbc06d4461563_Activities.png" alt="" class="share-icon vsv" />
+						<h1 class="profile-button">Recent Activities</h1>
+					</div>
+					<div class="div-block-47">
+						<div class="loading">
+							<div class="w-layout-grid loading-grid">
+								<div id="w-node-_8f38124a-39bb-a14c-49f5-509e0b2258a1-0b22589f" class="icon-wrapper">
+									<img src="/assets/65e9d686dfebbc06d446158a_Cross.svg" alt="" class="cross" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1" /><img
+										src="/assets/65e9d686dfebbc06d4461559_triangle.svg"
+										alt=""
+										class="cross-switch"
+										style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+									/><img src="/assets/65e9d686dfebbc06d446158a_Cross.svg" alt="" class="cross-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+								</div>
+								<div class="icon-wrapper">
+									<img src="/assets/65e9d686dfebbc06d4461500_Circle.svg" alt="" class="circle" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d" /><img
+										src="/assets/65e9d686dfebbc06d4461508_Square.svg"
+										alt=""
+										class="circle-switch"
+										style="opacity: 0; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+									/><img src="/assets/65e9d686dfebbc06d4461559_triangle.svg" alt="" class="circle-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+								</div>
+								<div class="icon-wrapper">
+									<img src="/assets/65e9d686dfebbc06d4461508_Square.svg" alt="" class="square" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d" /><img
+										src="/assets/65e9d686dfebbc06d4461500_Circle.svg"
+										alt=""
+										class="square-switch"
+										style="opacity: 0; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+									/><img src="/assets/65e9d686dfebbc06d4461500_Circle.svg" alt="" class="square-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+								</div>
+								<div class="icon-wrapper">
+									<img src="/assets/65e9d686dfebbc06d4461559_triangle.svg" alt="" class="triangle" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0.99969" /><img
+										src="/assets/65e9d686dfebbc06d446158a_Cross.svg"
+										alt=""
+										class="triangle-switch"
+										style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0"
+									/><img src="/assets/61ff072c3fb621550cc9480e_Square.svg" alt="" class="triangle-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="49213a21-d2ec-ba75-b8a9-bacb2b421a8d" class="messages">
+			<div class="header"><p class="heading-title">Messages</p></div>
+			<div class="library-wrapper">
+				<div class="messages-wrapper">
+					<div class="messages-menu">
+						<div class="tab fade">
+							<img src="/assets/65e9d686dfebbc06d4461592_messages.png" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">All&nbsp;Messages</h1></div>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446150f_heart.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Favorites</h1></div>
+						</div>
+						<div class="tab down">
+							<img src="/assets/65e9d686dfebbc06d4461546_align-center.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Compose</h1></div>
+						</div>
+						<div class="tab pad">
+							<img src="/assets/65e9d686dfebbc06d446154c_Phone.svg" alt="" class="share-icon t-copy" />
+							<div class="info-wrap">
+								<h1 class="stat-title">Send Messages with<br />the Mobile App</h1>
+							</div>
+						</div>
+					</div>
+					<div class="messages-grid">
+						<h1 class="no-new-messages">There are no new messages.<br /><br />Create a text or voice message and send it to your Friends!</h1>
+					</div>
+				</div>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="c115125e-abdf-5a71-7188-c6c538ecba5b" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+				<div class="button-wrapper pad">
+					<img src="/assets/65e9d686dfebbc06d44615a2_Options.png" alt="" class="options-2" />
+					<h1 class="caption-2">Options Menu</h1>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="92b87f35-8da9-b22f-e0c3-ee0cf9856bb9" class="parties">
+			<div class="header"><p class="heading-title">Twitter</p></div>
+			<div class="parties-container">
+				<div class="message-box">
+					<img src="/assets/65e9d686dfebbc06d4461579_Friends.png" alt="" class="image" />
+					<h1 class="text">Join us on Twitter, $BS4 degen.</h1>
+				</div>
+				<a href="https://twitter.com/BaseStation_4" target="_blank" class="create-party w-button">Twitter</a>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="fc581e6b-6839-08fe-0eff-879d64a0855f" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="acf9cfda-6fd8-e72c-8187-c6f250c1e1c3" class="dex-tools">
+			<div class="header"><p class="heading-title">DexTools</p></div>
+			<div class="parties-container">
+				<div class="message-box">
+					<img src="/assets/65e9d686dfebbc06d4461579_Friends.png" alt="" class="image" />
+					<h1 class="text">View our journey on DEX Tools!</h1>
+				</div>
+				<a href="https://www.dextools.io/app/en/base/pair-explorer/0x0090d9b730e03da3b1977a4b49f64d93a878cb50?t=1712134744753" target="_blank" class="create-party w-button">DexTools</a>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="acf9cfda-6fd8-e72c-8187-c6f250c1e1d3" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="c2e3d537-10a4-eb78-df1f-c43f78e05a15" class="dex-screener">
+			<div class="header"><p class="heading-title">DexScreener</p></div>
+			<div class="parties-container">
+				<div class="message-box">
+					<img src="/assets/65e9d686dfebbc06d4461579_Friends.png" alt="" class="image" />
+					<h1 class="text">View our journey on DEX Screener!</h1>
+				</div>
+				<a href="https://dexscreener.com/base/0x0fa83ae9f430757abfd59efa0fa260411ca8fd9f" target="_blank" class="create-party w-button">DexScreener</a>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="c2e3d537-10a4-eb78-df1f-c43f78e05a25" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="93b50471-ee2e-4ac2-46fc-e700ee3f7026" class="telegramm">
+			<div class="header"><p class="heading-title">Telegram</p></div>
+			<div class="parties-container">
+				<div class="message-box">
+					<img src="/assets/65e9d686dfebbc06d4461579_Friends.png" alt="" class="image" />
+					<h1 class="text">Join us in our Telegram!</h1>
+				</div>
+				<a href="https://t.me/basestation_4" target="_blank" class="create-party w-button">Telegram</a>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="93b50471-ee2e-4ac2-46fc-e700ee3f7036" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="c6da6883-c6e9-9ccc-dd3d-33142561bdae" class="trophies">
+			<div class="header"><p class="heading-title">Trophies</p></div>
+			<div class="container">
+				<div class="trophy-list">
+					<div class="notification-tab">
+						<div class="trophy-thumb"></div>
+						<div class="info-wrap">
+							<h1 class="notification-title">Call of Degen: BLACK SOL II</h1>
+							<a href="#" class="ps4-tag w-button">PS4</a>
+						</div>
+						<div class="bar-wrap">
+							<h1 class="notification-title">77%</h1>
+							<div class="trophy-bar-1"></div>
+						</div>
+						<div class="trophy-wrapper">
+							<img src="/assets/65e9d686dfebbc06d4461521_Chrome.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">1</h1>
+							<img src="/assets/65e9d686dfebbc06d446153a_Gold.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">9</h1>
+							<img src="/assets/65e9d686dfebbc06d446157a_Silver.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">30</h1>
+							<img src="/assets/65e9d686dfebbc06d4461597_Bronze.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag pad">50</h1>
+						</div>
+					</div>
+					<div class="notification-tab">
+						<div class="trophy-thumb b"></div>
+						<div class="info-wrap">
+							<h1 class="notification-title">Grand Theft Degens</h1>
+							<a href="#" class="ps4-tag w-button">PS4</a>
+						</div>
+						<div class="div-block-32-copy-copy">
+							<h1 class="notification-title">52%</h1>
+							<div class="trophy-bar-2"></div>
+						</div>
+						<div class="trophy-wrapper">
+							<img src="/assets/65e9d686dfebbc06d4461521_Chrome.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">0</h1>
+							<img src="/assets/65e9d686dfebbc06d446153a_Gold.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">6</h1>
+							<img src="/assets/65e9d686dfebbc06d446157a_Silver.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">18</h1>
+							<img src="/assets/65e9d686dfebbc06d4461597_Bronze.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag pad">44</h1>
+						</div>
+					</div>
+					<div class="notification-tab">
+						<div class="trophy-thumb g"></div>
+						<div class="info-wrap">
+							<h1 class="notification-title">Jeet Fighter II</h1>
+							<a href="#" class="ps4-tag w-button">PS4</a>
+						</div>
+						<div class="trophy-stat">
+							<h1 class="notification-title">36%</h1>
+							<div class="trophy-bar-3"></div>
+						</div>
+						<div class="trophy-wrapper">
+							<img src="/assets/65e9d686dfebbc06d4461521_Chrome.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">0</h1>
+							<img src="/assets/65e9d686dfebbc06d446153a_Gold.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">5</h1>
+							<img src="/assets/65e9d686dfebbc06d446157a_Silver.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">94</h1>
+							<img src="/assets/65e9d686dfebbc06d4461597_Bronze.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag pad">61</h1>
+						</div>
+					</div>
+					<div class="notification-tab">
+						<div class="trophy-thumb l"></div>
+						<div class="info-wrap">
+							<h1 class="notification-title">God of SOL</h1>
+							<a href="#" class="ps4-tag w-button">PS4</a>
+						</div>
+						<div class="trophy-stat l">
+							<h1 class="notification-title">10%</h1>
+							<div class="trophy-bar-4"></div>
+						</div>
+						<div class="trophy-wrapper">
+							<img src="/assets/65e9d686dfebbc06d4461521_Chrome.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">0</h1>
+							<img src="/assets/65e9d686dfebbc06d446153a_Gold.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">3</h1>
+							<img src="/assets/65e9d686dfebbc06d446157a_Silver.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag">14</h1>
+							<img src="/assets/65e9d686dfebbc06d4461597_Bronze.png" alt="" class="mini-trophy" />
+							<h1 class="trophy-tag pad">21</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="021b6fbb-95cb-5aad-9c67-71262dcd989d" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+				<div class="button-wrapper pad">
+					<img src="/assets/65e9d686dfebbc06d44615a2_Options.png" alt="" class="options-2" />
+					<h1 class="caption-2">Options Menu</h1>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="9efd6657-b4cc-af9c-4730-2d92091d55d7" class="settings">
+			<div class="header"><p class="heading-title">Settings</p></div>
+			<div class="container">
+				<div class="settings-parent">
+					<div class="settings-container">
+						<div class="settings-wrapper">
+							<div class="invisible"></div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d44615a6_Lightbulb.png" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">User's Guide/Helpful Info</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461547_health.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Device Data/Health&nbsp;&amp;&nbsp;Safety</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461588_accessibility.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Accessibility</h1></div>
+							</div>
+							<div class="settings-tab">
+								<div class="mini-pp-copy-copy"></div>
+								<div class="info-wrap"><h1 class="notification-title">Account Management</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461590_son.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Parental&nbsp;Controls/Family&nbsp;Management</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d446158e_door.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Login Settings</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d446154e_network.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Network</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d44615e3_Notification.png" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Notifications</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461554_ps4.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Devices</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d446150c_server.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Storage</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461510_picture.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Themes</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461502_folder.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Application Saved Data Management</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d446158d_volume.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Sound and Screen</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d44614fd_refresh.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">System Software Update</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461575_Broadcast.png" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Sharing and Broadcasts</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d446154c_Phone.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Mobile App&nbsp;Connection&nbsp;Settings</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461506_pad.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Remote Play&nbsp;Connection&nbsp;Settings</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d44614fe_play.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Video Playback Settings</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461550_clock.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Data and Time</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d446154f_language.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Language</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d4461503_power.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Power Save Settings</h1></div>
+							</div>
+							<div class="settings-tab">
+								<img src="/assets/65e9d686dfebbc06d446154a_box.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">System</h1></div>
+							</div>
+							<div class="settings-tab underline">
+								<img src="/assets/65e9d686dfebbc06d4461556_initiative.svg" alt="" class="settings-icon" />
+								<div class="info-wrap"><h1 class="notification-title">Initialization</h1></div>
+							</div>
+							<div class="invisible"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="fff33b76-ecfe-111a-f0e1-2b2492cc0656" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="3d30203e-ef22-18b5-fb52-0fab488459e9" class="power">
+			<div class="header"><p class="heading-title">Power</p></div>
+			<div class="container">
+				<div class="notification-list">
+					<div data-w-id="3d30203e-ef22-18b5-fb52-0fab488459ef" class="power-tab">
+						<img src="/assets/65e9d686dfebbc06d4461533_Logout.png" alt="" class="power-icon pad" />
+						<div class="info-wrap"><h1 class="notification-title">Log Out of BS4</h1></div>
+					</div>
+					<div data-w-id="3d30203e-ef22-18b5-fb52-0fab488459f4" class="power-tab">
+						<img src="/assets/65e9d686dfebbc06d446159b_Profile.png" alt="" class="power-icon pad" />
+						<div class="info-wrap"><h1 class="notification-title">Switch User</h1></div>
+					</div>
+					<div data-w-id="3d30203e-ef22-18b5-fb52-0fab488459f9" class="power-tab rest-mode">
+						<img src="/assets/65e9d686dfebbc06d4461505_power.svg" alt="" class="power-icon" />
+						<div class="info-wrap">
+							<h1 class="notification-title">Enter Rest Mode</h1>
+							<h1 class="subtitle">The BS4 will keep operating at a lower power consumption. It can charge controllers, download update files and keep applications suspended depending on the BS4's power saving settings. Do not unplug the AC power cord while in rest mode.</h1>
+						</div>
+					</div>
+					<div class="power-tab">
+						<img src="/assets/65e9d686dfebbc06d4461591_Power20Options.png" alt="" class="power-icon" />
+						<div class="info-wrap"><h1 class="notification-title">Power Options</h1></div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="2ceb1c84-e3e7-def5-bb37-84aa67e76ae0" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div class="library">
+			<div class="header"><p class="heading-title">Library</p></div>
+			<div class="library-wrapper">
+				<div class="notification-list-copy">
+					<div class="library-nav">
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446154d_search.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Search</h1></div>
+						</div>
+						<div class="div-block-35"><h1 class="this-ps4-copy">This&nbsp;BS4</h1></div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d4461557_squares.svg" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">All</h1></div>
+							<h1 class="number">23</h1>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="share-icon p" />
+							<div class="info-wrap"><h1 class="stat-title">Games</h1></div>
+							<h1 class="number">16</h1>
+						</div>
+						<div class="tab">
+							<img src="/assets/65e9d686dfebbc06d446159f_Apps.png" alt="" class="share-icon t" />
+							<div class="info-wrap"><h1 class="stat-title">Applications</h1></div>
+							<h1 class="number">7</h1>
+						</div>
+						<div class="div-block-35">
+							<div class="mini-pp-copy new"></div>
+							<h1 class="this-ps4-copy">$BS4 NORMIE</h1>
+						</div>
+						<div class="tab">
+							<img
+								src="/assets/6600843238088944d620824f_IMG_290120(1).png"
+								sizes="100vw"
+								srcset="/assets/6600843238088944d620824f_IMG_290120(1)-p-500.png 500w, /assets/6600843238088944d620824f_IMG_290120(1)-p-800.png 800w, /assets/6600843238088944d620824f_IMG_290120(1).png 996w"
+								alt=""
+								class="share-icon t"
+							/>
+							<div class="info-wrap">
+								<h1 class="stat-title">Purchased</h1>
+								<h1 class="number">33</h1>
+							</div>
+						</div>
+						<div class="tab p">
+							<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="share-icon x" />
+							<div class="info-wrap"><h1 class="stat-title">BaseStation&nbsp;Plus</h1></div>
+							<h1 class="number">80</h1>
+						</div>
+					</div>
+					<div class="games-grid">
+						<div class="library-panel">
+							<div class="w-layout-grid grid-5">
+								<div class="library-tab">
+									<div class="library-app rdr"></div>
+									<h1 class="stat-title">Red Dead<br />Redemption 2</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app borderlands"></div>
+									<h1 class="stat-title">Borderlands 3</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app horizon"></div>
+									<h1 class="stat-title">Horizon Zero<br />Dawn</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app nioh"></div>
+									<h1 class="stat-title">Nioh</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app darksiders"></div>
+									<h1 class="stat-title">Darksiders III</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app persona"></div>
+									<h1 class="stat-title">Persona 5</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app fifa"></div>
+									<h1 class="stat-title">FIFA&nbsp;20</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app ac"></div>
+									<h1 class="stat-title">Assassin's Creed<br />Odyssey</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app goat"></div>
+									<h1 class="stat-title">Goat Simulator</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app detroit"></div>
+									<h1 class="stat-title">Detroit: Become<br />Human</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app injustice"></div>
+									<h1 class="stat-title">Injustice 2</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app honor"></div>
+									<h1 class="stat-title">For Honor</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app ratchet"></div>
+									<h1 class="stat-title">Ratchet &amp;&nbsp;Clank</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app heavy"></div>
+									<h1 class="stat-title">Heavy Rain</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+								<div class="library-tab">
+									<div class="library-app final"></div>
+									<h1 class="stat-title">Final&nbsp;Fantasy&nbsp;XV</h1>
+									<h1 class="download">⇣</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-2">
+				<div class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461577_Cross.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Enter</h1>
+				</div>
+				<div data-w-id="30aa341b-077f-7a90-83e7-da7f7b55562f" class="button-wrapper">
+					<img src="/assets/65e9d686dfebbc06d4461534_Circle.png" alt="" class="keys-2" />
+					<h1 class="caption-2">Back</h1>
+				</div>
+				<div class="info-box">
+					<div class="mini-pp"></div>
+					<h1 class="user-name">$BS4</h1>
+					<img src="/assets/65e9d686dfebbc06d4461566_PS20Plus.png" alt="" class="mini-ps" />
+				</div>
+			</div>
+		</div>
+		<div data-w-id="97b7f8bb-37e4-6c84-3888-8684d6a9033b" class="game">
+			<div data-w-id="b27bdcb8-3f1f-ba78-ad96-a29901340d5b" class="witcher-video">
+				<div class="overlay"></div>
+				<div style="padding-top: 56.17021276595745%" class="w-embed-youtubevideo embed">
+					<iframe
+						src="https://www.youtube.com/embed/xaF3djhG5Mg?rel=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;start=5678"
+						frameborder="0"
+						style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: auto"
+						allow="autoplay; encrypted-media"
+						allowfullscreen=""
+						title="The Witcher 3 Wild Hunt FULL Walkthrough No Commentary Gameplay Part 1 Longplay (PC) [1080p60fps]"
+					></iframe>
+				</div>
+			</div>
+			<div data-w-id="22d34ffb-9a3b-567a-f9c2-9ef82194bab9" class="last-video">
+				<div class="overlay"></div>
+				<div style="padding-top: 56.17021276595745%" class="w-embed-youtubevideo embed">
+					<iframe
+						src="https://www.youtube.com/embed/c8rRDo7Aulc?rel=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;start=0"
+						frameborder="0"
+						style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: auto"
+						allow="autoplay; encrypted-media"
+						allowfullscreen=""
+						title="The Last of Us Remastered - Gameplay Walkthrough Part 6 - Bloater Boss (4K 60FPS) PS4 PRO"
+					></iframe>
+				</div>
+			</div>
+			<div data-w-id="be347d28-3294-86ca-f4dd-8ced9d7428f3" class="batman-video">
+				<div class="overlay"></div>
+				<div style="padding-top: 56.17021276595745%" class="w-embed-youtubevideo embed">
+					<iframe
+						src="https://www.youtube.com/embed/HDq7JQ0MuvQ?rel=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;start=8959"
+						frameborder="0"
+						style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: auto"
+						allow="autoplay; encrypted-media"
+						allowfullscreen=""
+						title="PS4 Longplay [040] Batman: Arkham Knight (Part 1 of 6)"
+					></iframe>
+				</div>
+			</div>
+			<div data-w-id="dd84fbf3-715c-6c64-e128-db3ab4ce2b24" class="god-video">
+				<div class="overlay"></div>
+				<div style="padding-top: 56.17021276595745%" class="w-embed-youtubevideo embed">
+					<iframe
+						src="https://www.youtube.com/embed/4TYzupHQWsA?rel=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;start=22"
+						frameborder="0"
+						style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: auto"
+						allow="autoplay; encrypted-media"
+						allowfullscreen=""
+						title="GOD OF WAR Walkthrough Gameplay Part 2 - THE STRANGER (God of War 4)"
+					></iframe>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="7ecf939b-3ceb-f575-394f-395d14f93bd7" class="ps-store">
+			<div class="w-layout-grid store-grid">
+				<div id="w-node-c9ea5716-4d64-f11d-6a15-30523035b190-d44614f5" class="box cyberpunk"></div>
+				<div id="w-node-ff1311f3-666d-66f6-7b48-030783f2fc4f-d44614f5" class="box game-awards"></div>
+				<div id="w-node-_50db51a2-0aa4-bcfb-9b4a-bee784a3fa7e-d44614f5" class="box ps5"></div>
+				<div id="w-node-_0356cd4f-9651-9d98-bc7e-3ffccf2e8e67-d44614f5" class="box ps-vr"></div>
+				<div id="w-node-_0419d75d-785b-5815-d3ce-5dc881ae8414-d44614f5" class="box death-stranding"></div>
+				<div id="w-node-a5d9488f-2193-0ae6-879e-8e411dd51fdb-d44614f5" class="box star-wars"></div>
+			</div>
+			<div class="shop-button">
+				<img src="/assets/65e9d686dfebbc06d446152a_Store.png" alt="" class="bag-icon" />
+				<h1 class="name">Shop the BaseStation™Store</h1>
+			</div>
+		</div>
+		<div data-w-id="83724ffb-9e61-92a2-cab9-d30d44b212b0" class="what-s-new">
+			<div class="wn-wrapper">
+				<div class="w-layout-grid new-grid">
+					<div class="left-column">
+						<div class="status-update">
+							<div class="div-pic"></div>
+							<h1 class="status">Hey Normie, you seen the $BS4 socials yet? BAAAASED!</h1>
+						</div>
+						<div class="badges">
+							<div class="wrap">
+								<div class="notification-thumb"></div>
+								<div class="info-wrap">
+									<h1 class="notification-title">$BS4 NORMIE shared $BS4 Socials.</h1>
+									<h1 class="subtitle">Today, 3:45</h1>
+								</div>
+							</div>
+							<div class="badges-wrapper">
+								<div class="w-layout-grid small-grid">
+									<a href="https://twitter.com/BaseStation_4" target="_blank" class="div-block-52 w-inline-block"
+										><div class="trophy-pic"></div>
+										<div class="trophy-title"><h1 class="trophy-name">Twitter</h1></div></a
+									><a href="https://t.me/basestation_4" target="_blank" class="div-block-52 stroke w-inline-block"
+										><div class="trophy-pic _2"></div>
+										<div class="trophy-title"><h1 class="trophy-name">Telegram</h1></div></a
+									><a href="https://dexscreener.com/base/0x0fa83ae9f430757abfd59efa0fa260411ca8fd9f" target="_blank" class="div-block-52 w-inline-block"
+										><div class="trophy-pic _3"></div>
+										<div class="trophy-title"><h1 class="trophy-name">Dex Screener</h1></div></a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="ratings">
+							<div class="wrap">
+								<div class="notification-thumb"></div>
+								<div class="info-wrap">
+									<h1 class="notification-title">$BS4 NORMIE gave this game 5&nbsp;stars.</h1>
+									<h1 class="subtitle">Yesterday, 1:26</h1>
+								</div>
+							</div>
+							<div class="red-dead">
+								<div class="rdr"></div>
+								<div class="info-wrap">
+									<h1 class="notification-title">Base Theft Degen</h1>
+									<h1 class="subtitle">$BS4 Project Degen<br />&zwj;<br /><span class="stars">⭑⭑⭑⭑⭑</span></h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right-column">
+						<div class="div">
+							<h1 class="notification-title">Trending</h1>
+							<div class="w-layout-grid grid-11">
+								<div class="trending"><img src="/assets/65e9d686dfebbc06d446155b_play.svg" height="30" alt="" class="image-21" /></div>
+								<div class="trending _2"></div>
+								<div class="trending _3"></div>
+							</div>
+						</div>
+						<div class="div">
+							<h1 class="notification-title">Featured on&nbsp;PlayStation</h1>
+							<div class="trending-copy"></div>
+						</div>
+						<div class="div">
+							<h1 class="notification-title">Who to Follow</h1>
+							<div class="div-block-54">
+								<div class="div-block-50-copy"></div>
+								<div class="div-pic _5"></div>
+								<div class="div-pic _6"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="d3c8fa2b-dd9e-3d4d-384b-387968b7ec45" class="game-splash">
+			<div class="splash-left">
+				<div class="content-nav">
+					<div data-w-id="01bdeb30-eda4-f79b-299b-a1c476701840" class="close-more-options"></div>
+					<div data-w-id="1db6ebab-928f-4d48-6ab5-d9e5bb6881b0" class="dewitcher">
+						<div class="game-cover witcher"></div>
+						<div class="div-block-28">
+							<h1 class="game-title">Call of Degen: BLACK BASE II</h1>
+							<p class="paragraph-2">$BS4 Project Degen<br />Full Game &nbsp;|&nbsp;&nbsp;40.9&nbsp;GB</p>
+						</div>
+					</div>
+					<div data-w-id="a710a5c2-9316-f436-1b89-81a2c41887b7" class="delast">
+						<div class="game-cover lou"></div>
+						<div class="div-block-28">
+							<h1 class="game-title">Base Theft Auto<br /></h1>
+							<p class="paragraph-2">$BS4 Project Degen<br />Full Game &nbsp;|&nbsp;&nbsp;39.2&nbsp;GB</p>
+						</div>
+					</div>
+					<div data-w-id="150a155b-8e6a-ecad-e37f-440a4f73d596" class="debat">
+						<div class="game-cover bak"></div>
+						<div class="div-block-28">
+							<h1 class="game-title">Jeet Fighter II<br /></h1>
+							<p class="paragraph-2">$BS4 Project Degen<br />&zwj;Full Game &nbsp;|&nbsp;&nbsp;65.5&nbsp;GB</p>
+						</div>
+					</div>
+					<div data-w-id="961e6a18-598e-6f05-6f1d-1ad399cc6eb9" class="degod">
+						<div class="game-cover gow"></div>
+						<div class="div-block-28">
+							<h1 class="game-title">God of Base</h1>
+							<p class="paragraph-2">$BS4 Project Degen<br />Full Game &nbsp;|&nbsp;&nbsp;65.5&nbsp;GB</p>
+						</div>
+					</div>
+					<div class="div-block-30">
+						<a href="#" class="button-5 w-button">Start</a><a data-w-id="464ad950-cf29-3dfb-fc1f-b4f8109841fb" href="#" class="button-5-copy w-button">• • •</a>
+						<div class="more">
+							<div class="more-copy">
+								<h1 class="stat-bold">Like</h1>
+								<div class="div-block-37">
+									<img src="/assets/65e9d686dfebbc06d4461501_like.svg" alt="" class="image-16" />
+									<h1 class="stat-bold-copy">15.2K</h1>
+								</div>
+							</div>
+							<div class="more-copy"><h1 class="stat-bold">Rate</h1></div>
+						</div>
+					</div>
+					<div class="tab gs">
+						<img src="/assets/65e9d686dfebbc06d446159d_Controller.png" alt="" class="share-icon p" />
+						<div class="info-wrap">
+							<h1 class="stat-title">Overview</h1>
+							<div class="game-div">
+								<img src="/assets/65e9d686dfebbc06d4461538_Trophy.png" height="15" alt="" class="mini-icon" />
+								<div class="div-block-34"></div>
+								<h1 class="stat">67%</h1>
+							</div>
+						</div>
+					</div>
+					<div class="tab gs">
+						<img src="/assets/65e9d686dfebbc06d446158b_graph.svg" alt="" class="share-icon t" />
+						<div class="info-wrap">
+							<h1 class="stat-title">Trending</h1>
+							<div class="game-div">
+								<img src="/assets/65e9d686dfebbc06d4461575_Broadcast.png" height="15" alt="" class="mini-icon" />
+								<h1 class="stat">110</h1>
+								<img src="/assets/65e9d686dfebbc06d4461535_Film20Reel.png" height="15" alt="" class="mini-icon r" />
+								<h1 class="stat">4.9K</h1>
+								<img src="/assets/65e9d686dfebbc06d4461510_picture.svg" height="15" alt="" class="mini-icon r" />
+								<h1 class="stat">3.1K</h1>
+							</div>
+						</div>
+					</div>
+					<div class="tab gs">
+						<img src="/assets/65e9d686dfebbc06d4461579_Friends.png" alt="" class="share-icon t" />
+						<div class="info-wrap">
+							<h1 class="stat-title">Friends &nbsp;|&nbsp;&nbsp;Communities</h1>
+							<div class="game-div">
+								<img src="/assets/65e9d686dfebbc06d4461567_communities.png" height="15" alt="" class="mini-icon" />
+								<h1 class="stat">2.7K</h1>
+							</div>
+						</div>
+					</div>
+					<div class="tab gs">
+						<img src="/assets/65e9d686dfebbc06d4461563_Activities.png" alt="" class="share-icon t" />
+						<div class="info-wrap"><h1 class="stat-title">Activities</h1></div>
+					</div>
+					<div class="tab p-copy">
+						<img src="/assets/65e9d686dfebbc06d446152a_Store.png" alt="" class="share-icon b" />
+						<div class="info-wrap"><h1 class="stat-title">BaseStation™Store</h1></div>
+					</div>
+				</div>
+			</div>
+			<div class="content-panels">
+				<div class="trophies-panel">
+					<div class="loading">
+						<div class="w-layout-grid loading-grid">
+							<div id="w-node-_8f38124a-39bb-a14c-49f5-509e0b2258a1-0b22589f" class="icon-wrapper">
+								<img src="/assets/65e9d686dfebbc06d446158a_Cross.svg" alt="" class="cross" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1" /><img
+									src="/assets/65e9d686dfebbc06d4461559_triangle.svg"
+									alt=""
+									class="cross-switch"
+									style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+								/><img src="/assets/65e9d686dfebbc06d446158a_Cross.svg" alt="" class="cross-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+							</div>
+							<div class="icon-wrapper">
+								<img src="/assets/65e9d686dfebbc06d4461500_Circle.svg" alt="" class="circle" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d" /><img
+									src="/assets/65e9d686dfebbc06d4461508_Square.svg"
+									alt=""
+									class="circle-switch"
+									style="opacity: 0; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+								/><img src="/assets/65e9d686dfebbc06d4461559_triangle.svg" alt="" class="circle-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+							</div>
+							<div class="icon-wrapper">
+								<img src="/assets/65e9d686dfebbc06d4461508_Square.svg" alt="" class="square" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d" /><img
+									src="/assets/65e9d686dfebbc06d4461500_Circle.svg"
+									alt=""
+									class="square-switch"
+									style="opacity: 0; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+								/><img src="/assets/65e9d686dfebbc06d4461500_Circle.svg" alt="" class="square-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+							</div>
+							<div class="icon-wrapper">
+								<img src="/assets/65e9d686dfebbc06d4461559_triangle.svg" alt="" class="triangle" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0.99969" /><img
+									src="/assets/65e9d686dfebbc06d446158a_Cross.svg"
+									alt=""
+									class="triangle-switch"
+									style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0"
+								/><img src="/assets/61ff072c3fb621550cc9480e_Square.svg" alt="" class="triangle-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-w-id="4c11c815-7c9f-5371-ad9f-2389e5486581" class="splash-wrapper">
+				<div class="splash witcher"></div>
+				<div class="splash gow"></div>
+				<div class="splash lou"></div>
+				<div class="splash bak"></div>
+			</div>
+		</div>
+		<div data-w-id="73277cbd-09f9-a524-d2ee-ffc4246bd53a" class="tv-video">
+			<div class="w-layout-grid grid-4">
+				<div class="app-wrapper stroke">
+					<div class="netflix"></div>
+					<div class="tag-copy">Netflix&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;⇣</div>
+				</div>
+				<div class="app-wrapper stroke">
+					<div class="prime-video"></div>
+					<div class="tag-copy">Prime&nbsp;Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇣</div>
+				</div>
+				<div class="app-wrapper stroke">
+					<div class="youtube"></div>
+					<div class="tag-copy">YouTube&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;⇣</div>
+				</div>
+				<div class="app-wrapper stroke">
+					<div class="twitch"></div>
+					<div class="tag-copy">Twitch&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇣</div>
+				</div>
+				<div class="app-wrapper stroke">
+					<div class="nba"></div>
+					<div class="tag-copy">NBA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇣</div>
+				</div>
+				<div class="app-wrapper stroke">
+					<div class="ign"></div>
+					<div class="tag-copy">IGN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇣</div>
+				</div>
+				<div class="app-wrapper stroke">
+					<div class="all-apps"></div>
+					<div class="tag-copy">All&nbsp;Apps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇣</div>
+				</div>
+			</div>
+		</div>
+		<div data-w-id="a4fa738e-ff83-dde7-15cb-81dbf3445823" class="notification">
+			<div class="top-div">
+				<div class="profile-pic"></div>
+				<h1 class="username">TechVizir</h1>
+			</div>
+			<div class="bottom-div"><img src="/assets/65e9d686dfebbc06d44615ad_Dark20Controller.png" alt="" class="controller" /><img src="/assets/65e9d686dfebbc06d4461511_Battery.png" alt="" class="battery" /><img src="/assets/65e9d686dfebbc06d446155a_Headset.svg" alt="" class="headphones" /></div>
+		</div>
+		<div data-w-id="1d71268c-781b-4793-7647-a70e8ef73fa7" class="put-to-rest">
+			<div class="message-box">
+				<div class="loading">
+					<div class="w-layout-grid loading-grid">
+						<div id="w-node-_8f38124a-39bb-a14c-49f5-509e0b2258a1-0b22589f" class="icon-wrapper">
+							<img src="/assets/65e9d686dfebbc06d446158a_Cross.svg" alt="" class="cross" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1" /><img
+								src="/assets/65e9d686dfebbc06d4461559_triangle.svg"
+								alt=""
+								class="cross-switch"
+								style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+							/><img src="/assets/65e9d686dfebbc06d446158a_Cross.svg" alt="" class="cross-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+						</div>
+						<div class="icon-wrapper">
+							<img src="/assets/65e9d686dfebbc06d4461500_Circle.svg" alt="" class="circle" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d" /><img
+								src="/assets/65e9d686dfebbc06d4461508_Square.svg"
+								alt=""
+								class="circle-switch"
+								style="opacity: 0; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+							/><img src="/assets/65e9d686dfebbc06d4461559_triangle.svg" alt="" class="circle-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+						</div>
+						<div class="icon-wrapper">
+							<img src="/assets/65e9d686dfebbc06d4461508_Square.svg" alt="" class="square" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d" /><img
+								src="/assets/65e9d686dfebbc06d4461500_Circle.svg"
+								alt=""
+								class="square-switch"
+								style="opacity: 0; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d"
+							/><img src="/assets/65e9d686dfebbc06d4461500_Circle.svg" alt="" class="square-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+						</div>
+						<div class="icon-wrapper">
+							<img src="/assets/65e9d686dfebbc06d4461559_triangle.svg" alt="" class="triangle" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0.99969" /><img
+								src="/assets/65e9d686dfebbc06d446158a_Cross.svg"
+								alt=""
+								class="triangle-switch"
+								style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0"
+							/><img src="/assets/61ff072c3fb621550cc9480e_Square.svg" alt="" class="triangle-switch-2" style="transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0" />
+						</div>
+					</div>
+				</div>
+				<h1 class="text">Putting the BS4 into rest mode...</h1>
+			</div>
+			<div class="unplug">
+				<div class="ps4-icon"><img src="/assets/65e9d686dfebbc06d4461515_Playstation.png" alt="" class="ps-logo" /></div>
+				<h1 class="text">Do not unplug the AC power cord when the power<br /><br />indicator on the BS4 is lit or blinking.</h1>
+			</div>
+		</div>
+		<div data-w-id="a037fae3-d7d2-152b-e769-35e3b5838df6" class="background">
+			<div
+				data-poster-url="/assets/5e11aa124b55b0caf037d2a3_Playstation-poster-00001.jpg"
+				data-video-urls="/assets/65e9d686dfebbc06d4461573_Playstation-transcode.mp4,/assets/65e9d686dfebbc06d4461573_Playstation-transcode.webm"
+				data-autoplay="true"
+				data-loop="true"
+				data-wf-ignore="true"
+				class="video w-background-video w-background-video-atom"
+			>
+				<video id="7d62c147-7d40-1cd9-24bb-efdfd21c31c4-video" autoplay="" loop="" style="background-image: url('/assets/5e11aa124b55b0caf037d2a3_Playstation-poster-00001.jpg')" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+					<source src="/assets/65e9d686dfebbc06d4461573_Playstation-transcode.mp4" data-wf-ignore="true" />
+					<source src="/assets/65e9d686dfebbc06d4461573_Playstation-transcode.webm" data-wf-ignore="true" />
+				</video>
+			</div>
+			<!-- <div class="music w-embed w-iframe">
+				<iframe
+					width="0"
+					height="0"
+					scrolling="no"
+					frameborder="no"
+					allow="autoplay"
+					src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/738695713&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+				></iframe>
+			</div> -->
+		</div>
+		<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65e9d686dfebbc06d44614f8" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="/assets/js/basestation4.0b861c29c.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function () {
+				// Initialize a variable to track the last click time
+				let lastClickTime = 0
+
+				// Assuming 'slider' is the class of the slider or its navigation controls
+				const slider = document.querySelector('.slider') // Adjust if your slider has a different class
+
+				if (slider) {
+					slider.addEventListener(
+						'click',
+						function (event) {
+							const now = Date.now() // Get the current time
+
+							// Check if the last click was more than 1000 milliseconds (1 second) ago
+							if (now - lastClickTime < 500) {
+								// If not, prevent the click from doing anything
+								console.log('Click too fast, wait a bit!')
+								event.preventDefault()
+								event.stopPropagation() // Stop the event from propagating further
+							} else {
+								// If yes, update the last click time to the current time
+								lastClickTime = now
+							}
+						},
+						true
+					) // Use capturing phase to catch the event early
+				}
+			})
+		</script>
+		<script>
+			function change() {
+				document.getElementById('t').value = 'Close Curtain'
+			}
+		</script>
+	</body>
+</html>
