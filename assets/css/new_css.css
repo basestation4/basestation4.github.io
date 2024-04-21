@@ -1,0 +1,85 @@
+/* my new css! */
+
+/* jQuery('#flappy-bird-app-wrapper').animate({
+    width: '300px',
+    height: '350px',
+})
+jQuery('#flappy-bird-app-wrapper').css('border-color', 'white')
+jQuery('#flappy-bird-app-wrapper .tag, #flappy-bird-app-wrapper .app-title').fadeIn()
+
+jQuery('#slider .apps').css({
+    transform: 'translateX(-10vw)',
+}) */
+
+body.show-flappy-bird #slider .apps {
+	transform: translateX(-15vw) !important;
+	transition: all 0.3s;
+}
+#flappy-bird-app-wrapper {
+	transition: all 0.3s !important;
+}
+body.show-flappy-bird #flappy-bird-app-wrapper {
+	width: 300px !important;
+	height: 350px !important;
+	border-color: white !important;
+}
+body.show-flappy-bird #flappy-bird-app-wrapper .app-title {
+	opacity: 1;
+	transition: all 0.3s;
+}
+body.show-flappy-bird #flappy-bird-app-wrapper .tag {
+	opacity: 1;
+	transition: all 0.3s;
+}
+body.show-flappy-bird .apps .app-wrapper:not(#flappy-bird-app-wrapper) {
+	width: 200px !important;
+	height: 250px !important;
+	border-color: transparent !important;
+	transition: all 0.3s;
+}
+body.show-flappy-bird .apps .app-wrapper:not(#flappy-bird-app-wrapper) .tag {
+	opacity: 0 !important;
+	transition: all 0.3s !important;
+}
+body.show-flappy-bird .apps .app-wrapper:not(#flappy-bird-app-wrapper) .app-title {
+	opacity: 0 !important;
+	transition: all 0.3s !important;
+}
+
+/* slider */
+body[data-slider-ix='0'] #slider .apps {
+	transform: translateX(0) !important;
+	transition: all 0.3s;
+}
+body[data-slider-ix='1'] #slider .apps {
+	transform: translateX(-10vw) !important;
+	transition: all 0.3s;
+}
+body[data-slider-ix='2'] #slider .apps {
+	transform: translateX(-20vw) !important;
+	transition: all 0.3s;
+}
+body[data-slider-ix='3'] #slider .apps {
+	transform: translateX(-30vw) !important;
+	transition: all 0.3s;
+}
+body[data-slider-ix='4'] #slider .apps {
+	transform: translateX(-40vw) !important;
+	transition: all 0.3s;
+}
+body[data-slider-ix='5'] #slider .apps {
+	transform: translateX(-50vw) !important;
+	transition: all 0.3s;
+}
+body[data-slider-ix='6'] #slider .apps {
+	transform: translateX(-60vw) !important;
+	transition: all 0.3s;
+}
+body[data-slider-ix='7'] #slider .apps {
+	transform: translateX(-70vw) !important;
+	transition: all 0.3s;
+}
+body[data-slider-ix='8'] #slider .apps {
+	transform: translateX(-80vw) !important;
+	transition: all 0.3s;
+}
